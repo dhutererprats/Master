@@ -1,0 +1,938 @@
+###This is all of the output from conda install mamba that I could copy paste after several hours of running:
+
+
+
+Package anyio conflicts for:
+nbclassic -> jupyter_server[version='>=1.8'] -> anyio[version='>=2.0.2|>=2.0.2,<3|>=3.0.1,<4|>=3.1|>=3.1.0|>=3.1.0,<4']
+jupyterlab_server -> jupyter_server[version='>=1.21,<3'] -> anyio[version='>=2.0.2|>=2.0.2,<3|>=3.0.1,<4|>=3.1|>=3.1.0|>=3.1.0,<4']
+anaconda==2021.11=py39_0 -> jupyter_server==1.4.1=py39hecd8cb5_0 -> anyio[version='>=2.0.2']
+jupyter_server -> anyio[version='>=2.0.2|>=2.0.2,<3|>=3.0.1,<4|>=3.1|>=3.1.0|>=3.1.0,<4']
+anaconda==2021.11=py39_0 -> anyio==2.2.0=py39hecd8cb5_1
+jupyterlab -> jupyter_server[version='>=1.16.0,<3'] -> anyio[version='>=2.0.2|>=2.0.2,<3|>=3.0.1,<4|>=3.1|>=3.1.0|>=3.1.0,<4']
+
+Package qstylizer conflicts for:
+anaconda==2021.11=py39_0 -> spyder==5.1.5=py39hecd8cb5_1 -> qstylizer[version='>=0.1.10']
+anaconda==2021.11=py39_0 -> qstylizer==0.1.10=pyhd3eb1b0_0
+spyder -> qstylizer[version='>=0.1.10|>=0.2.2']
+
+Package mkl_random conflicts for:
+bokeh -> numpy[version='>=1.16'] -> mkl_random[version='>=1.0.2,<2.0a0|>=1.2.1,<2.0a0|>=1.0.4,<2.0a0']
+pywavelets -> numpy[version='>=1.20.3,<2.0a0'] -> mkl_random[version='>=1.0.2,<2.0a0|>=1.2.1,<2.0a0|>=1.0.4,<2.0a0']
+seaborn -> numpy[version='>=1.13.3'] -> mkl_random[version='>=1.0.2,<2.0a0|>=1.2.1,<2.0a0|>=1.0.4,<2.0a0']
+nltk -> numpy -> mkl_random[version='>=1.0.2,<2.0a0|>=1.2.1,<2.0a0|>=1.0.4,<2.0a0']
+matplotlib-base -> numpy[version='>=1.20'] -> mkl_random[version='>=1.0.2,<2.0a0|>=1.0.4,<2.0a0|>=1.2.1,<2.0a0']
+numexpr -> numpy[version='>=1.20.3,<2.0a0'] -> mkl_random[version='>=1.0.2,<2.0a0|>=1.2.1,<2.0a0|>=1.0.4,<2.0a0']
+scipy -> numpy[version='>=1.20.3,<1.27'] -> mkl_random[version='>=1.0.2,<2.0a0|>=1.2.1,<2.0a0|>=1.0.4,<2.0a0']
+astropy -> numpy[version='>=1.20.3,<2.0a0'] -> mkl_random[version='>=1.0.2,<2.0a0|>=1.0.4,<2.0a0|>=1.2.1,<2.0a0']
+mkl_fft -> numpy[version='>=1.23.5,<2.0a0'] -> mkl_random[version='>=1.0.2,<2.0a0|>=1.2.1,<2.0a0|>=1.0.4,<2.0a0']
+scikit-image -> numpy[version='>=1.20.3,<2.0a0'] -> mkl_random[version='>=1.0.2,<2.0a0|>=1.2.1,<2.0a0|>=1.0.4,<2.0a0']
+matplotlib -> numpy[version='>=1.14.6,<2.0a0'] -> mkl_random[version='>=1.0.2,<2.0a0|>=1.2.1,<2.0a0|>=1.0.4,<2.0a0']
+imagecodecs -> numpy[version='>=1.20.3,<2.0a0'] -> mkl_random[version='>=1.0.2,<2.0a0|>=1.2.1,<2.0a0|>=1.0.4,<2.0a0']
+bkcharts -> numpy[version='>=1.7.1'] -> mkl_random[version='>=1.0.2,<2.0a0|>=1.2.1,<2.0a0|>=1.0.4,<2.0a0']
+h5py -> numpy[version='>=1.23.5,<2.0a0'] -> mkl_random[version='>=1.0.2,<2.0a0|>=1.2.1,<2.0a0|>=1.0.4,<2.0a0']
+numba -> numpy[version='>=1.21.6,<2.0a0'] -> mkl_random[version='>=1.0.2,<2.0a0|>=1.2.1,<2.0a0|>=1.0.4,<2.0a0']
+tifffile -> numpy[version='>=1.19.2'] -> mkl_random[version='>=1.0.2,<2.0a0|>=1.2.1,<2.0a0|>=1.0.4,<2.0a0']
+anaconda==2021.11=py39_0 -> mkl_random==1.2.2=py39hb2f4e1b_0
+networkx -> numpy[version='>=1.19'] -> mkl_random
+pandas -> numpy[version='>=1.20.3,<2.0a0'] -> mkl_random[version='>=1.0.2,<2.0a0|>=1.2.1,<2.0a0|>=1.0.4,<2.0a0']
+bottleneck -> numpy[version='>=1.21.6,<2.0a0'] -> mkl_random[version='>=1.0.2,<2.0a0|>=1.2.1,<2.0a0|>=1.0.4,<2.0a0']
+anaconda==2021.11=py39_0 -> numpy==1.20.3=py39h4b4dc7a_0 -> mkl_random
+numpy -> mkl_random[version='>=1.0.2,<2.0a0|>=1.2.1,<2.0a0|>=1.0.4,<2.0a0']
+pyerfa -> numpy[version='>=1.21.6,<2.0a0'] -> mkl_random[version='>=1.0.2,<2.0a0|>=1.2.1,<2.0a0|>=1.0.4,<2.0a0']
+imageio -> numpy -> mkl_random[version='>=1.0.2,<2.0a0|>=1.2.1,<2.0a0|>=1.0.4,<2.0a0']
+patsy -> numpy[version='>=1.4.0'] -> mkl_random[version='>=1.0.2,<2.0a0|>=1.2.1,<2.0a0|>=1.0.4,<2.0a0']
+dask -> numpy[version='>=1.21'] -> mkl_random[version='>=1.0.2,<2.0a0|>=1.2.1,<2.0a0|>=1.0.4,<2.0a0']
+mkl-service -> numpy[version='>=1.11.3,<2.0a0'] -> mkl_random[version='>=1.0.2,<2.0a0|>=1.2.1,<2.0a0|>=1.0.4,<2.0a0']
+pytables -> numpy[version='>=1.20.3,<2.0a0'] -> mkl_random[version='>=1.0.2,<2.0a0|>=1.2.1,<2.0a0|>=1.0.4,<2.0a0']
+statsmodels -> numpy[version='>=1.20.3,<2.0a0'] -> mkl_random[version='>=1.0.2,<2.0a0|>=1.2.1,<2.0a0|>=1.0.4,<2.0a0']
+scikit-learn -> numpy[version='>=1.23.5,<2.0a0'] -> mkl_random[version='>=1.0.2,<2.0a0|>=1.2.1,<2.0a0|>=1.0.4,<2.0a0']
+daal4py -> numpy[version='>=1.21.6,<2.0a0'] -> mkl_random[version='>=1.0.2,<2.0a0|>=1.2.1,<2.0a0|>=1.0.4,<2.0a0']
+
+Package asttokens conflicts for:
+pyjwt -> flake8-import-order -> asttokens
+ipython -> stack_data -> asttokens
+
+Package libllvm8 conflicts for:
+numba -> llvmlite[version='>=0.31.0,<0.33'] -> libllvm8[version='>=8.0.1,<8.1.0a0']
+llvmlite -> libllvm8[version='>=8.0.1,<8.1.0a0']
+qt -> libclang[version='>=8.0.1,<9.0a0'] -> libllvm8[version='>=8.0.1,<8.0.2a0']
+
+Package diff-match-patch conflicts for:
+anaconda==2021.11=py39_0 -> diff-match-patch==20200713=pyhd3eb1b0_0
+anaconda==2021.11=py39_0 -> spyder==5.1.5=py39hecd8cb5_1 -> diff-match-patch[version='>=20181111']
+spyder -> diff-match-patch[version='>=20181111']
+three-merge -> diff-match-patch
+
+Package arrow conflicts for:
+anaconda==2021.11=py39_0 -> arrow==0.13.1=py39hecd8cb5_0
+cookiecutter -> jinja2-time[version='>=0.2.0'] -> arrow[version='<0.15']
+anaconda==2021.11=py39_0 -> jinja2-time==0.2.0=pyhd3eb1b0_2 -> arrow[version='<0.15']
+jinja2-time -> arrow[version='<0.15']
+
+Package mypy_extensions conflicts for:
+ipython -> black -> mypy_extensions[version='>=0.4.3']
+python-lsp-black -> black[version='>=22.3.0'] -> mypy_extensions[version='>=0.4.3']
+black -> mypy_extensions[version='>=0.4.3']
+anaconda==2021.11=py39_0 -> mypy_extensions==0.4.3=py39hecd8cb5_0
+anaconda==2021.11=py39_0 -> black==19.10b0=py_0 -> mypy_extensions
+
+Package mccabe conflicts for:
+spyder -> pylint[version='>=2.5.0,<3.0'] -> mccabe[version='>=0.6,<0.7|>=0.6,<0.8|>=0.7.0,<0.8.0|>=0.6.0,<0.7.0|>=0.6.0,<0.8.0']
+python-lsp-black -> python-lsp-server[version='>=1.4.0'] -> mccabe[version='>=0.6.0,<0.7.0|>=0.7.0,<0.8.0|>=0.6.0,<0.8.0']
+pyjwt -> flake8 -> mccabe[version='>=0.5,<0.6|>=0.6.0,<0.7.0|>=0.7.0,<0.8.0|>=0.6.0,<0.8.0']
+flake8 -> mccabe[version='>=0.5,<0.6|>=0.6.0,<0.7.0|>=0.7.0,<0.8.0|>=0.6.0,<0.8.0']
+anaconda==2021.11=py39_0 -> flake8==3.9.2=pyhd3eb1b0_0 -> mccabe[version='>=0.6,<0.7|>=0.6.0,<0.7.0']
+python-lsp-server -> mccabe[version='>=0.6.0,<0.7.0|>=0.7.0,<0.8.0|>=0.6.0,<0.8.0']
+pylint -> mccabe[version='>=0.6,<0.7|>=0.6,<0.8']
+anaconda==2021.11=py39_0 -> mccabe==0.6.1=py39hecd8cb5_1
+python-lsp-server -> pylint[version='>=2.5.0,<3.0.0'] -> mccabe[version='>=0.6,<0.7|>=0.6,<0.8']
+pyls-spyder -> python-lsp-server[version='>=1.0.1'] -> mccabe[version='>=0.6.0,<0.7.0|>=0.7.0,<0.8.0|>=0.6.0,<0.8.0']
+
+Package jupyterlab_server conflicts for:
+_ipyw_jlab_nb_ext_conf -> jupyterlab -> jupyterlab_server[version='>=0.2.0,<0.3.0|>=1.0.0,<2.0.0|>=1.1.0,<2.0.0|>=2,<3|>=2.10,<3|>=2.19,<3|>=2.3,<3|>=2.0.0,<3.0.0|>=1.1.5,<2.0.0']
+jupyterlab -> jupyterlab_server[version='>=0.2.0,<0.3.0|>=1.0.0,<2.0.0|>=1.1.0,<2.0.0|>=2,<3|>=2.10,<3|>=2.19,<3|>=2.3,<3|>=2.0.0,<3.0.0|>=1.1.5,<2.0.0']
+jupyter -> jupyterlab -> jupyterlab_server[version='>=0.2.0,<0.3.0|>=1.0.0,<2.0.0|>=1.1.0,<2.0.0|>=2,<3|>=2.10,<3|>=2.19,<3|>=2.3,<3|>=2.0.0,<3.0.0|>=1.1.5,<2.0.0']
+anaconda==2021.11=py39_0 -> jupyterlab_server==2.8.2=pyhd3eb1b0_0
+anaconda==2021.11=py39_0 -> jupyterlab==3.2.1=pyhd3eb1b0_1 -> jupyterlab_server[version='>=2.3,<3']
+
+Package locket conflicts for:
+dask-core -> partd[version='>=1.2.0'] -> locket
+anaconda==2021.11=py39_0 -> partd==1.2.0=pyhd3eb1b0_0 -> locket
+dask -> distributed[version='>=2023.3.1,<2023.3.2.0a0'] -> locket[version='>=1.0.0']
+anaconda==2021.11=py39_0 -> locket==0.2.1=py39hecd8cb5_1
+distributed -> locket[version='>=1.0.0']
+partd -> locket
+
+Package distributed conflicts for:
+scikit-image -> dask[version='>=0.5'] -> distributed[version='2021.10.0.*|2021.11.0.*|2021.11.1.*|2021.11.2.*|>=2021.12.0,<2021.12.1.0a0|>=2022.1.0,<2022.1.1.0a0|>=2022.1.1,<2022.1.2.0a0|>=2022.10.0,<2022.10.1.0a0|>=2022.10.2,<2022.10.3.0a0|>=2022.11.0,<2022.11.1.0a0|>=2022.11.1,<2022.11.2.0a0|>=2022.12.0,<2022.12.1.0a0|>=2022.12.1,<2022.12.2.0a0|>=2023.1.0,<2023.1.1.0a0|>=2023.1.1,<2023.1.2.0a0|>=2023.2.0,<2023.2.1.0a0|>=2023.2.1,<2023.2.2.0a0|>=2023.3.0,<2023.3.1.0a0|>=2023.3.1,<2023.3.2.0a0|>=2022.9.2,<2022.9.3.0a0|>=2022.9.1,<2022.9.2.0a0|>=2022.9.0,<2022.9.1.0a0|>=2022.8.1,<2022.8.2.0a0|>=2022.8.0,<2022.8.1.0a0|>=2022.7.1,<2022.7.2.0a0|>=2022.7.0,<2022.7.1.0a0|>=2022.6.1,<2022.6.2.0a0|>=2022.6.0,<2022.6.1.0a0|>=2022.5.2,<2022.5.3.0a0|>=2022.5.1,<2022.5.2.0a0|>=2022.5.0,<2022.5.1.0a0|>=2022.4.2,<2022.4.3.0a0|>=2022.4.1,<2022.4.2.0a0|>=2022.4.0,<2022.4.1.0a0|>=2022.3.0,<2022.3.1.0a0|>=2022.2.1,<2022.2.2.0a0|>=2022.2.0,<2022.2.1.0a0|2021.9.1.*|2021.9.0.*|2021.8.1.*|2021.8.0.*|2021.7.2.*|2021.7.1.*|2021.7.0.*|2021.6.2.*|2021.6.1.*|2021.6.0.*|2021.5.1.*|2021.5.0.*|>=2021.4.1|>=2021.4.0|>=2021.3.1|>=2021.3.0|>=2021.2.0|>=2021.1.1|>=2021.1.0|>=2020.12.0|>=2.30.0|>=2.29.0|>=2.28.0|>=2.27.0|>=2.26.0|>=2.25.0|>=2.24.0|>=2.23.0|>=2.22.0|>=2.21.0|>=2.20.0|>=2.19.0|>=2.18.0|>=2.17.0|>=2.16.0|>=2.15.0|>=2.14.0|>=2.13.0|>=2.12.0|>=2.11.0|>=2.10.0|>=2.9.2|>=2.9.1|>=2.9.0|>=2.8.1|>=2.8.0|>=2.7.0|>=2.6.0|>=2.5.2|>=2.5.0|>=2.4.0|>=2.3.0|>=2.2.0|>=2|>=1.28.0|>=1.27.0|>=1.26.1|>=1.26.0|>=1.25.3|>=1.25.2|>=1.25.0|>=1.24.2|>=1.23.3|>=1.23.2|>=1.23.1|>=1.23.0|>=1.22.0|>=1.21.0|>=1.21.1|>=1.20.0|>=1.19.0|>=1.16.0|>=1.15.0|>=1.11.0|2022.7.0.*|2022.5.0.*|2022.2.1.*|2021.4.1.*']
+anaconda==2021.11=py39_0 -> distributed==2021.10.0=py39hecd8cb5_0
+dask -> distributed[version='2021.10.0.*|2021.11.0.*|2021.11.1.*|2021.11.2.*|>=2021.12.0,<2021.12.1.0a0|>=2022.1.0,<2022.1.1.0a0|>=2022.1.1,<2022.1.2.0a0|>=2022.10.0,<2022.10.1.0a0|>=2022.10.2,<2022.10.3.0a0|>=2022.11.0,<2022.11.1.0a0|>=2022.11.1,<2022.11.2.0a0|>=2022.12.0,<2022.12.1.0a0|>=2022.12.1,<2022.12.2.0a0|>=2023.1.0,<2023.1.1.0a0|>=2023.1.1,<2023.1.2.0a0|>=2023.2.0,<2023.2.1.0a0|>=2023.2.1,<2023.2.2.0a0|>=2023.3.0,<2023.3.1.0a0|>=2023.3.1,<2023.3.2.0a0|>=2022.9.2,<2022.9.3.0a0|>=2022.9.1,<2022.9.2.0a0|>=2022.9.0,<2022.9.1.0a0|>=2022.8.1,<2022.8.2.0a0|>=2022.8.0,<2022.8.1.0a0|>=2022.7.1,<2022.7.2.0a0|>=2022.7.0,<2022.7.1.0a0|>=2022.6.1,<2022.6.2.0a0|>=2022.6.0,<2022.6.1.0a0|>=2022.5.2,<2022.5.3.0a0|>=2022.5.1,<2022.5.2.0a0|>=2022.5.0,<2022.5.1.0a0|>=2022.4.2,<2022.4.3.0a0|>=2022.4.1,<2022.4.2.0a0|>=2022.4.0,<2022.4.1.0a0|>=2022.3.0,<2022.3.1.0a0|>=2022.2.1,<2022.2.2.0a0|>=2022.2.0,<2022.2.1.0a0|2021.9.1.*|2021.9.0.*|2021.8.1.*|2021.8.0.*|2021.7.2.*|2021.7.1.*|2021.7.0.*|2021.6.2.*|2021.6.1.*|2021.6.0.*|2021.5.1.*|2021.5.0.*|>=2021.4.1|>=2021.4.0|>=2021.3.1|>=2021.3.0|>=2021.2.0|>=2021.1.1|>=2021.1.0|>=2020.12.0|>=2.30.0|>=2.29.0|>=2.28.0|>=2.27.0|>=2.26.0|>=2.25.0|>=2.24.0|>=2.23.0|>=2.22.0|>=2.21.0|>=2.20.0|>=2.19.0|>=2.18.0|>=2.17.0|>=2.16.0|>=2.15.0|>=2.14.0|>=2.13.0|>=2.12.0|>=2.11.0|>=2.10.0|>=2.9.2|>=2.9.1|>=2.9.0|>=2.8.1|>=2.8.0|>=2.7.0|>=2.6.0|>=2.5.2|>=2.5.0|>=2.4.0|>=2.3.0|>=2.2.0|>=2|>=1.28.0|>=1.27.0|>=1.26.1|>=1.26.0|>=1.25.3|>=1.25.2|>=1.25.0|>=1.24.2|>=1.23.3|>=1.23.2|>=1.23.1|>=1.23.0|>=1.22.0|>=1.21.0|>=1.21.1|>=1.20.0|>=1.19.0|>=1.16.0|>=1.15.0|>=1.11.0|2022.7.0.*|2022.5.0.*|2022.2.1.*|2021.4.1.*']
+anaconda==2021.11=py39_0 -> dask==2021.10.0=pyhd3eb1b0_0 -> distributed=2021.10.0
+
+Package fonttools conflicts for:
+matplotlib -> matplotlib-base[version='>=3.7.1,<3.7.2.0a0'] -> fonttools[version='>=4.22.0']
+networkx -> matplotlib-base[version='>=3.4'] -> fonttools[version='>=4.22.0']
+matplotlib-base -> fonttools[version='>=4.22.0']
+anaconda==2021.11=py39_0 -> fonttools==4.25.0=pyhd3eb1b0_0
+scikit-image -> matplotlib-base[version='>=2.0.0'] -> fonttools[version='>=4.22.0']
+seaborn -> matplotlib-base[version='>=2.1.2'] -> fonttools[version='>=4.22.0']
+anaconda==2021.11=py39_0 -> matplotlib-base==3.4.3=py39h0a11d32_0 -> fonttools[version='>=4.22.0']
+
+Package sphinx conflicts for:
+jedi -> numpydoc -> sphinx[version='>=1.8|>=4.2|>=3.0']
+anaconda==2021.11=py39_0 -> numpydoc==1.1.0=pyhd3eb1b0_1 -> sphinx[version='>=0.6.6']
+anaconda==2021.11=py39_0 -> sphinx==4.2.0=pyhd3eb1b0_1
+numpydoc -> sphinx[version='>=1.8|>=4.2|>=3.0']
+sphinxcontrib-websupport -> sphinx
+spyder -> sphinx[version='>=0.6.6']
+spyder -> numpydoc[version='>=0.6.0'] -> sphinx[version='>=1.8|>=4.2|>=3.0']
+sphinxcontrib-serializinghtml -> sphinx
+
+Package importlib-resources conflicts for:
+matplotlib-base -> importlib-resources[version='>=3.2.0']
+seaborn -> matplotlib-base[version='>=2.1.2'] -> importlib-resources[version='>=3.2.0']
+networkx -> matplotlib-base[version='>=3.4'] -> importlib-resources[version='>=3.2.0']
+scikit-image -> matplotlib-base[version='>=2.0.0'] -> importlib-resources[version='>=3.2.0']
+matplotlib -> matplotlib-base[version='>=3.7.1,<3.7.2.0a0'] -> importlib-resources[version='>=3.2.0']
+
+Package unicodedata2 conflicts for:
+fonttools -> unicodedata2[version='>=12.1.0|>=13.0.0|>=14.0.0']
+matplotlib-base -> fonttools[version='>=4.22.0'] -> unicodedata2[version='>=13.0.0|>=14.0.0']
+
+Package itsdangerous conflicts for:
+anaconda==2021.11=py39_0 -> itsdangerous==2.0.1=pyhd3eb1b0_0
+flask -> itsdangerous[version='>=0.21|>=0.24|>=0.24,<2.0|>=2.0']
+anaconda==2021.11=py39_0 -> flask==1.1.2=pyhd3eb1b0_0 -> itsdangerous[version='>=0.24']
+
+Package tifffile conflicts for:
+scikit-image -> tifffile[version='>=2019.7.26']
+anaconda==2021.11=py39_0 -> tifffile==2021.7.2=pyhd3eb1b0_2
+anaconda==2021.11=py39_0 -> scikit-image==0.18.3=py39hae1ba45_0 -> tifffile[version='>=2019.7.26']
+
+Package testpath conflicts for:
+anaconda==2021.11=py39_0 -> testpath==0.5.0=pyhd3eb1b0_0
+jupyter_server -> nbconvert-core[version='>=6.4.4'] -> testpath
+notebook -> nbconvert-core[version='>=5'] -> testpath
+nbclassic -> nbconvert[version='>=5'] -> testpath
+spyder -> nbconvert[version='>=4.0'] -> testpath
+jupyter -> nbconvert -> testpath
+nbconvert -> testpath
+anaconda==2021.11=py39_0 -> nbconvert==6.1.0=py39hecd8cb5_0 -> testpath
+
+Package alabaster conflicts for:
+spyder -> sphinx[version='>=0.6.6'] -> alabaster[version='>=0.7,<0.8']
+numpydoc -> sphinx[version='>=1.8'] -> alabaster[version='>=0.7,<0.8']
+sphinx -> alabaster[version='>=0.7,<0.8']
+sphinxcontrib-websupport -> sphinx -> alabaster[version='>=0.7,<0.8']
+sphinxcontrib-serializinghtml -> sphinx -> alabaster[version='>=0.7,<0.8']
+anaconda==2021.11=py39_0 -> sphinx==4.2.0=pyhd3eb1b0_1 -> alabaster[version='>=0.7,<0.8']
+anaconda==2021.11=py39_0 -> alabaster==0.7.12=pyhd3eb1b0_0
+
+Package dill conflicts for:
+pylint -> dill[version='>=0.2|>=0.3.6']
+python-lsp-server -> pylint[version='>=2.5.0,<3.0.0'] -> dill[version='>=0.2|>=0.3.6']
+spyder -> pylint[version='>=2.5.0,<3.0'] -> dill[version='>=0.2|>=0.3.6']
+
+Package libnghttp2 conflicts for:
+mamba -> libcurl[version='>=7.79.1,<8.0a0'] -> libnghttp2[version='>=1.41.0,<2.0a0|>=1.43.0,<2.0a0|>=1.47.0,<2.0a0|>=1.51.0,<2.0a0|>=1.52.0,<2.0a0|>=1.46.0|>=1.46.0,<2.0a0']
+anaconda==2021.11=py39_0 -> libnghttp2==1.41.0=h7580e61_2
+anaconda==2021.11=py39_0 -> libcurl==7.78.0=hb8e4fae_0 -> libnghttp2[version='>=1.41.0,<2.0a0']
+libcurl -> libnghttp2[version='>=1.41.0,<2.0a0|>=1.43.0,<2.0a0|>=1.47.0,<2.0a0|>=1.51.0,<2.0a0|>=1.52.0,<2.0a0|>=1.46.0|>=1.46.0,<2.0a0']
+hdf5 -> libcurl[version='>=7.87.0,<8.0a0'] -> libnghttp2[version='>=1.41.0,<2.0a0|>=1.43.0,<2.0a0|>=1.46.0,<2.0a0|>=1.46.0|>=1.47.0,<2.0a0|>=1.51.0,<2.0a0|>=1.52.0,<2.0a0']
+pycurl -> libcurl[version='>=7.86.0,<8.0a0'] -> libnghttp2[version='>=1.41.0,<2.0a0|>=1.43.0,<2.0a0|>=1.46.0,<2.0a0|>=1.46.0|>=1.47.0,<2.0a0|>=1.51.0,<2.0a0|>=1.52.0,<2.0a0']
+curl -> libcurl==8.0.0=h1fead75_0 -> libnghttp2[version='>=1.41.0,<2.0a0|>=1.43.0,<2.0a0|>=1.47.0,<2.0a0|>=1.51.0,<2.0a0|>=1.52.0,<2.0a0|>=1.46.0|>=1.46.0,<2.0a0']
+cfitsio -> libcurl[version='>=7.86.0,<8.0a0'] -> libnghttp2[version='>=1.41.0,<2.0a0|>=1.43.0,<2.0a0|>=1.46.0,<2.0a0|>=1.46.0|>=1.47.0,<2.0a0|>=1.51.0,<2.0a0|>=1.52.0,<2.0a0']
+
+Package networkx conflicts for:
+scikit-image -> networkx[version='>=1.8,<2.0|>=1.8|>=2.0|>=2.2|>=2.2,<2.7']
+anaconda==2021.11=py39_0 -> networkx==2.6.3=pyhd3eb1b0_0
+anaconda==2021.11=py39_0 -> scikit-image==0.18.3=py39hae1ba45_0 -> networkx[version='>=2.0']
+
+Package isort conflicts for:
+spyder -> pylint[version='>=2.5.0,<3.0'] -> isort[version='>=4.2.5|>=4.2.5,<5|>=4.2.5,<6']
+pylint -> isort[version='>=4.2.5|>=4.2.5,<5|>=4.2.5,<6']
+anaconda==2021.11=py39_0 -> isort==5.9.3=pyhd3eb1b0_0
+python-lsp-server -> pylint[version='>=2.5.0,<3.0.0'] -> isort[version='>=4.2.5,<5|>=4.2.5,<6']
+anaconda==2021.11=py39_0 -> pylint==2.9.6=py39hecd8cb5_1 -> isort[version='>=4.2.5,<6']
+
+Package cached_property conflicts for:
+cached-property -> cached_property[version='>=1.5.2,<1.5.3.0a0']
+h5py -> cached-property -> cached_property[version='>=1.5.2,<1.5.3.0a0']
+
+Package cfitsio conflicts for:
+anaconda==2021.11=py39_0 -> cfitsio==3.470=hee0f690_6
+anaconda==2021.11=py39_0 -> imagecodecs==2021.8.26=py39ha952a84_0 -> cfitsio[version='>=3.470,<3.471.0a0']
+imagecodecs -> cfitsio[version='>=3.470,<3.471.0a0|>=4.0.0,<4.0.1.0a0|>=4.1.0,<4.1.1.0a0|>=4.2.0,<4.2.1.0a0']
+tifffile -> imagecodecs[version='>=2023.1.23'] -> cfitsio[version='>=3.470,<3.471.0a0|>=4.0.0,<4.0.1.0a0|>=4.1.0,<4.1.1.0a0|>=4.2.0,<4.2.1.0a0']
+
+Package conda-package-streaming conflicts for:
+anaconda-client -> conda-package-handling[version='>=1.7.3'] -> conda-package-streaming[version='>=0.7.0']
+conda-package-handling -> conda-package-streaming[version='>=0.7.0']
+conda-verify -> conda-package-handling[version='>=1.0.4'] -> conda-package-streaming[version='>=0.7.0']
+conda-build -> conda-package-handling[version='>=1.3'] -> conda-package-streaming[version='>=0.7.0']
+conda[version='>=4.10.3'] -> conda-package-handling[version='>=1.3.0'] -> conda-package-streaming[version='>=0.7.0']
+
+Package clyent conflicts for:
+anaconda-client -> clyent[version='>=1.2.0|>=1.2.2']
+anaconda-navigator -> anaconda-client[version='>=1.6.14'] -> clyent[version='>=1.2.0|>=1.2.2|>=1.2.1']
+conda-repo-cli -> clyent[version='>=1.2.0|>=1.2.1']
+anaconda==2021.11=py39_0 -> anaconda-client==1.9.0=py39hecd8cb5_0 -> clyent[version='>=1.2.0']
+anaconda-project -> anaconda-client -> clyent[version='>=1.2.0|>=1.2.2']
+conda-repo-cli -> anaconda-client[version='>=1.7.2'] -> clyent[version='>=1.2.2']
+anaconda==2021.11=py39_0 -> clyent==1.2.2=py39hecd8cb5_1
+
+Package tinycss2 conflicts for:
+nbclassic -> nbconvert[version='>=5'] -> tinycss2
+jupyter_server -> nbconvert-core[version='>=6.4.4'] -> tinycss2
+notebook -> nbconvert-core[version='>=5'] -> tinycss2
+jupyter -> nbconvert -> tinycss2
+nbconvert -> tinycss2
+qstylizer -> tinycss2[version='>=1.1.0,<2.0']
+spyder -> nbconvert[version='>=4.0'] -> tinycss2[version='>=1.1.0,<2.0']
+
+Package greenlet conflicts for:
+anaconda==2021.11=py39_0 -> gevent==21.8.0=py39h9ed2024_1 -> greenlet[version='!=0.4.17|>=1.1.0,<2.0']
+anaconda==2021.11=py39_0 -> greenlet==1.1.1=py39h23ab428_0
+sqlalchemy -> greenlet!=0.4.17
+gevent -> greenlet[version='>=0.4.10|>=0.4.13|>=0.4.14|>=0.4.17|>=0.4.17,<2.0|>=1.1.0,<2.0|>=1.1.3,<2.0|>=2.0.0']
+
+Package spyder-kernels conflicts for:
+anaconda==2021.11=py39_0 -> spyder==5.1.5=py39hecd8cb5_1 -> spyder-kernels[version='>=2.1.1,<2.2.0']
+spyder -> spyder-kernels[version='0.*|>=0.1,<1|>=0.4.2,<1|>=0.4.3,<1|>=0.5.0,<1|>=1.10.0,<1.11.0|>=1.10.1,<1.11.0|>=1.10.2,<1.11.0|>=2.0.1,<2.1.0|>=2.0.2,<2.1.0|>=2.0.3,<2.1.0|>=2.0.4,<2.1.0|>=2.1.0,<2.2.0|>=2.1.1,<2.2.0|>=2.2.0,<2.3.0|>=2.2.1,<2.3.0|>=2.3.0,<2.4.0|>=2.3.1,<2.4.0|>=2.3.2,<2.4.0|>=2.3.3,<2.4.0|>=2.4.0,<2.5.0|>=2.4.1,<2.5.0|>=2.4.2,<2.5.0|>=1.9.4,<1.10.0|>=1.9.2,<1.10.0|>=1.9.1,<1.10.0|>=1.9.0,<1.10.0|>=1.8.1,<1.9.0|>=1.8.1,<2.0.0|<1.0']
+anaconda==2021.11=py39_0 -> spyder-kernels==2.1.3=py39hecd8cb5_0
+
+Package libllvm10 conflicts for:
+qt -> libclang[version='>=10.0.1,<11.0a0'] -> libllvm10[version='>=10.0.1,<10.1.0a0']
+llvmlite -> libllvm10[version='>=10.0.1,<10.1.0a0']
+conda-build -> cctools -> libllvm10[version='>=10.0.0,<10.1.0a0']
+numba -> llvmlite[version='>=0.36.0,<0.37.0a0'] -> libllvm10[version='>=10.0.1,<10.1.0a0']
+
+Package parso conflicts for:
+ipython -> jedi[version='>=0.16'] -> parso[version='0.1.0|>=0.1.0,<0.2|>=0.2.0,<0.8.0|>=0.3.0,<0.8.0|>=0.5.0|>=0.5.0,<0.8.0|>=0.5.2,<0.8.0|>=0.7.0,<0.8.0|>=0.8.0,<0.9.0|>=0.7.0|>=0.5.2|>=0.3.0|>=0.2.0']
+spyder -> jedi[version='>=0.17.2,<0.19.0'] -> parso[version='0.1.0|>=0.1.0,<0.2|>=0.2.0,<0.8.0|>=0.3.0,<0.8.0|>=0.5.0|>=0.5.0,<0.8.0|>=0.7.0,<0.8.0|>=0.8.0,<0.9.0|>=0.3.0|>=0.2.0|>=0.5.2,<0.8.0|>=0.7.0|>=0.5.2']
+jedi -> parso[version='0.1.0|>=0.1.0,<0.2|>=0.2.0,<0.8.0|>=0.3.0,<0.8.0|>=0.5.0,<0.8.0|>=0.5.2,<0.8.0|>=0.7.0,<0.8.0|>=0.8.0,<0.9.0|>=0.7.0|>=0.5.2|>=0.5.0|>=0.3.0|>=0.2.0']
+python-lsp-server -> jedi[version='>=0.17.2,<0.19'] -> parso[version='>=0.7.0,<0.8.0|>=0.8.0,<0.9.0']
+spyder -> parso[version='0.5.2.*|0.7.0.*|>=0.7.0,<0.9.0']
+anaconda==2021.11=py39_0 -> parso==0.8.2=pyhd3eb1b0_0
+anaconda==2021.11=py39_0 -> jedi==0.18.0=py39hecd8cb5_1 -> parso[version='>=0.7.0,<0.9.0|>=0.8.0,<0.9.0']
+
+Package pyqt5-sip conflicts for:
+spyder -> pyqt[version='>=5.6,<5.16'] -> pyqt5-sip[version='12.11.0|12.11.0|12.11.0|12.11.0|12.11.0|12.11.0|12.9.0|12.9.0|12.9.0|12.9.0|12.9.0|12.9.0|12.9.0|12.9.0|4.19.18|4.19.18|4.19.18|4.19.18|4.19.18|4.19.18|4.19.18|4.19.18|4.19.18|4.19.18|4.19.18|4.19.18|4.19.18',build='py37he9d5cce_0|py311hcec6c5f_0|py37h5ab9d7d_6|py38h5745d40_6|py39hd8f94c5_6|py36h3ffa6ac_6|py38h5745d40_7|py310hd046c34_8|py38h1d3b384_8|py39heb84ab9_0|py37h4e8204f_0|py310haa54a10_0|py38h44864d7_0|py310h9bd4cdd_1|py38h2c8b277_0|py39h7c248c4_0|py37h453a0d4_0|py310h9bd4cdd_0|py39hc100f75_1|py38haf9be31_1|py311h78fa98d_3|py39hc100f75_3|py38haf9be31_3|py310h415000c_3|py38haf9be31_2|py39hc100f75_2|py310h415000c_2|py311h78fa98d_2|py37h8bea099_1|py310h415000c_1|py38h2c8b277_1|py37h453a0d4_1|py39h7c248c4_1|py39h15fb055_8|py37h070e122_8|py37h5ab9d7d_7|py39hd8f94c5_7|py36h3ffa6ac_7|py38h5745d40_5|py39he9d5cce_0|py38he9d5cce_0|py310he9d5cce_0']
+pyqt -> pyqt5-sip[version='12.11.0|12.11.0|12.11.0|12.11.0|12.11.0|12.11.0|12.9.0|12.9.0|12.9.0|12.9.0|12.9.0|12.9.0|12.9.0|12.9.0|4.19.18|4.19.18|4.19.18|4.19.18|4.19.18|4.19.18|4.19.18|4.19.18|4.19.18|4.19.18|4.19.18|4.19.18|4.19.18',build='py37he9d5cce_0|py311hcec6c5f_0|py37h5ab9d7d_6|py38h5745d40_6|py39hd8f94c5_6|py36h3ffa6ac_6|py38h5745d40_7|py310hd046c34_8|py38h1d3b384_8|py39heb84ab9_0|py37h4e8204f_0|py310haa54a10_0|py38h44864d7_0|py310h9bd4cdd_1|py38h2c8b277_0|py39h7c248c4_0|py37h453a0d4_0|py310h9bd4cdd_0|py39hc100f75_1|py38haf9be31_1|py311h78fa98d_3|py39hc100f75_3|py38haf9be31_3|py310h415000c_3|py38haf9be31_2|py39hc100f75_2|py310h415000c_2|py311h78fa98d_2|py37h8bea099_1|py310h415000c_1|py38h2c8b277_1|py37h453a0d4_1|py39h7c248c4_1|py39h15fb055_8|py37h070e122_8|py37h5ab9d7d_7|py39hd8f94c5_7|py36h3ffa6ac_7|py38h5745d40_5|py39he9d5cce_0|py38he9d5cce_0|py310he9d5cce_0']
+navigator-updater -> pyqt[version='>=5.6,<6.0a0'] -> pyqt5-sip[version='12.11.0|12.11.0|12.11.0|12.11.0|12.11.0|12.11.0|12.9.0|12.9.0|12.9.0|12.9.0|12.9.0|12.9.0|12.9.0|12.9.0|4.19.18|4.19.18|4.19.18|4.19.18|4.19.18|4.19.18|4.19.18|4.19.18|4.19.18|4.19.18|4.19.18|4.19.18|4.19.18',build='py37he9d5cce_0|py311hcec6c5f_0|py37h5ab9d7d_6|py38h5745d40_6|py39hd8f94c5_6|py36h3ffa6ac_6|py38h5745d40_7|py310hd046c34_8|py38h1d3b384_8|py39heb84ab9_0|py37h4e8204f_0|py310haa54a10_0|py38h44864d7_0|py310h9bd4cdd_1|py38h2c8b277_0|py39h7c248c4_0|py37h453a0d4_0|py310h9bd4cdd_0|py39hc100f75_1|py38haf9be31_1|py311h78fa98d_3|py39hc100f75_3|py38haf9be31_3|py310h415000c_3|py38haf9be31_2|py39hc100f75_2|py310h415000c_2|py311h78fa98d_2|py37h8bea099_1|py310h415000c_1|py38h2c8b277_1|py37h453a0d4_1|py39h7c248c4_1|py39h15fb055_8|py37h070e122_8|py37h5ab9d7d_7|py39hd8f94c5_7|py36h3ffa6ac_7|py38h5745d40_5|py39he9d5cce_0|py38he9d5cce_0|py310he9d5cce_0']
+qtconsole -> pyqt -> pyqt5-sip[version='12.11.0|12.11.0|12.11.0|12.11.0|12.11.0|12.11.0|12.9.0|12.9.0|12.9.0|12.9.0|12.9.0|12.9.0|12.9.0|12.9.0|4.19.18|4.19.18|4.19.18|4.19.18|4.19.18|4.19.18|4.19.18|4.19.18|4.19.18|4.19.18|4.19.18|4.19.18|4.19.18',build='py37he9d5cce_0|py311hcec6c5f_0|py37h5ab9d7d_6|py38h5745d40_6|py39hd8f94c5_6|py36h3ffa6ac_6|py38h5745d40_7|py310hd046c34_8|py38h1d3b384_8|py39heb84ab9_0|py37h4e8204f_0|py310haa54a10_0|py38h44864d7_0|py310h9bd4cdd_1|py38h2c8b277_0|py39h7c248c4_0|py37h453a0d4_0|py310h9bd4cdd_0|py39hc100f75_1|py38haf9be31_1|py311h78fa98d_3|py39hc100f75_3|py38haf9be31_3|py310h415000c_3|py38haf9be31_2|py39hc100f75_2|py310h415000c_2|py311h78fa98d_2|py37h8bea099_1|py310h415000c_1|py38h2c8b277_1|py37h453a0d4_1|py39h7c248c4_1|py39h15fb055_8|py37h070e122_8|py37h5ab9d7d_7|py39hd8f94c5_7|py36h3ffa6ac_7|py38h5745d40_5|py39he9d5cce_0|py38he9d5cce_0|py310he9d5cce_0']
+anaconda-navigator -> pyqt[version='>=5.6,<6.0a0'] -> pyqt5-sip[version='12.11.0|12.11.0|12.11.0|12.11.0|12.11.0|12.11.0|12.9.0|12.9.0|12.9.0|12.9.0|12.9.0|12.9.0|12.9.0|12.9.0|4.19.18|4.19.18|4.19.18|4.19.18|4.19.18|4.19.18|4.19.18|4.19.18|4.19.18|4.19.18|4.19.18|4.19.18|4.19.18',build='py37he9d5cce_0|py311hcec6c5f_0|py37h5ab9d7d_6|py38h5745d40_6|py39hd8f94c5_6|py36h3ffa6ac_6|py38h5745d40_7|py310hd046c34_8|py38h1d3b384_8|py39heb84ab9_0|py37h4e8204f_0|py310haa54a10_0|py38h44864d7_0|py310h9bd4cdd_1|py38h2c8b277_0|py39h7c248c4_0|py37h453a0d4_0|py310h9bd4cdd_0|py39hc100f75_1|py38haf9be31_1|py311h78fa98d_3|py39hc100f75_3|py38haf9be31_3|py310h415000c_3|py38haf9be31_2|py39hc100f75_2|py310h415000c_2|py311h78fa98d_2|py37h8bea099_1|py310h415000c_1|py38h2c8b277_1|py37h453a0d4_1|py39h7c248c4_1|py39h15fb055_8|py37h070e122_8|py37h5ab9d7d_7|py39hd8f94c5_7|py36h3ffa6ac_7|py38h5745d40_5|py39he9d5cce_0|py38he9d5cce_0|py310he9d5cce_0']
+
+Package curio conflicts for:
+jupyter_server -> anyio[version='>=2.0.2,<3'] -> curio
+anyio -> curio
+
+Package python-lsp-server conflicts for:
+spyder -> pyls-spyder[version='>=0.4.0'] -> python-lsp-server[version='>=1.0.1|>=1.4.0']
+anaconda==2021.11=py39_0 -> python-lsp-server==1.2.4=pyhd3eb1b0_0
+python-lsp-black -> python-lsp-server[version='>=1.4.0']
+pyls-spyder -> python-lsp-server[version='>=1.0.1']
+anaconda==2021.11=py39_0 -> pyls-spyder==0.4.0=pyhd3eb1b0_0 -> python-lsp-server[version='>=1.0.1|>=1.2.2,<1.3.0']
+spyder -> python-lsp-server[version='>=1.2.1,<1.3.0|>=1.2.2,<1.3.0|>=1.3.1,<1.4.0|>=1.3.2,<1.4.0|>=1.4.1,<1.5.0|>=1.5.0,<1.6.0|>=1.6.0,<1.7.0|>=1.7.0,<1.8.0|>=1.7.1,<1.8.0']
+
+Package pycparser conflicts for:
+anaconda==2021.11=py39_0 -> pycparser==2.20=py_2
+argon2-cffi -> cffi[version='>=1.0.0'] -> pycparser
+cffi -> pycparser
+brotlipy -> cffi[version='>=1.0.0'] -> pycparser
+gevent -> cffi[version='>=1.11.5'] -> pycparser
+cryptography -> cffi[version='>=1.12'] -> pycparser
+anaconda==2021.11=py39_0 -> cffi==1.14.6=py39h2125817_0 -> pycparser
+
+Package dal conflicts for:
+scikit-learn-intelex -> daal4py==2023.0.2 -> dal[version='2021.2.2|2021.3.0|2021.4.0.*|2021.4.0|2021.5.0.*|2021.5.0|2021.6.0|2021.7.1|2023.0.0|2023.0.1|>=2023.0.1,<2024.0a0|>=2023.0.0,<2024.0a0|>=2021.7.1,<2022.0a0|>=2021.6.0,<2022.0a0|==2021.6.0|>=2021.5.0,<2022.0a0|>=2021.4.0,<2022.0a0|>=2021.3.0,<2022.0a0|>=2021.3.0,<2021.3.1.0a0|>=2021.2.2,<2022.0a0|>=2021.2.2,<2021.2.3.0a0',build=haf03e11_929]
+anaconda==2021.11=py39_0 -> daal4py==2021.3.0=py39h01d92e1_0 -> dal[version='>=2021.3.0,<2021.3.1.0a0|>=2021.3.0,<2022.0a0']
+daal4py -> dal[version='2021.2.2|2021.3.0|2021.4.0|2021.5.0|2021.6.0|2021.7.1|2023.0.0|2023.0.1|>=2023.0.1,<2024.0a0|>=2023.0.0,<2024.0a0|>=2021.7.1,<2022.0a0|>=2021.6.0,<2022.0a0|>=2021.5.0,<2022.0a0|>=2021.4.0,<2022.0a0|>=2021.3.0,<2022.0a0|>=2021.2.2,<2022.0a0|==2021.6.0|2021.5.0.*|2021.4.0.*|>=2021.3.0,<2021.3.1.0a0|>=2021.2.2,<2021.2.3.0a0',build=haf03e11_929]
+anaconda==2021.11=py39_0 -> dal==2021.3.0=hecd8cb5_555
+
+Package pyobjc-framework-fsevents conflicts for:
+spyder -> watchdog -> pyobjc-framework-fsevents[version='>=4.2.2']
+watchdog -> pyobjc-framework-fsevents[version='>=4.2.2']
+applaunchservices -> pyobjc-framework-coreservices -> pyobjc-framework-fsevents[version='>=8.5|>=8.5.1|>=9.0']
+
+Package snappy conflicts for:
+anaconda==2021.11=py39_0 -> snappy==1.1.8=hb1e8313_0
+pytables -> blosc[version='>=1.21.2,<2.0a0'] -> snappy[version='1.1.6|>=1.1.7,<2.0a0|>=1.1.8,<2.0a0|>=1.1.9,<2.0a0']
+blosc -> snappy[version='1.1.6|>=1.1.8,<2.0a0|>=1.1.9,<2.0a0|>=1.1.7,<2.0a0']
+imagecodecs -> blosc[version='>=1.19.0,<2.0a0'] -> snappy[version='>=1.1.7,<2.0a0']
+imagecodecs -> snappy[version='>=1.1.8,<2.0a0|>=1.1.9,<2.0a0']
+anaconda==2021.11=py39_0 -> imagecodecs==2021.8.26=py39ha952a84_0 -> snappy[version='>=1.1.8,<2.0a0']
+tifffile -> imagecodecs[version='>=2023.1.23'] -> snappy[version='>=1.1.8,<2.0a0|>=1.1.9,<2.0a0']
+dask -> pyarrow[version='>=7.0'] -> snappy
+
+Package pyls-spyder conflicts for:
+anaconda==2021.11=py39_0 -> spyder==5.1.5=py39hecd8cb5_1 -> pyls-spyder[version='>=0.4.0']
+anaconda==2021.11=py39_0 -> pyls-spyder==0.4.0=pyhd3eb1b0_0
+spyder -> pyls-spyder[version='>=0.1.1|>=0.3.0|>=0.3.2|>=0.3.2,<0.4.0|>=0.4.0']
+
+Package giflib conflicts for:
+imagecodecs -> libwebp[version='>=1.0.0,<1.1.0a0'] -> giflib[version='>=5.1.7,<5.1.8.0a0']
+libtiff -> libwebp -> giflib[version='>=5.1.4,<5.2.0a0|>=5.1.7,<5.1.8.0a0|>=5.2.1,<5.3.0a0']
+pillow -> libwebp -> giflib[version='>=5.1.4,<5.2.0a0|>=5.1.7,<5.1.8.0a0|>=5.2.1,<5.3.0a0']
+anaconda==2021.11=py39_0 -> giflib==5.2.1=haf1e3a3_0
+imagecodecs -> giflib[version='>=5.1.4,<5.2.0a0|>=5.2.1,<5.3.0a0']
+anaconda==2021.11=py39_0 -> imagecodecs==2021.8.26=py39ha952a84_0 -> giflib[version='>=5.2.1,<5.3.0a0']
+tifffile -> imagecodecs[version='>=2023.1.23'] -> giflib[version='>=5.1.4,<5.2.0a0|>=5.2.1,<5.3.0a0']
+libwebp -> giflib[version='>=5.1.4,<5.2.0a0|>=5.1.7,<5.1.8.0a0|>=5.2.1,<5.3.0a0']
+
+Package keyring conflicts for:
+anaconda==2021.11=py39_0 -> keyring==23.1.0=py39hecd8cb5_0
+anaconda==2021.11=py39_0 -> spyder==5.1.5=py39hecd8cb5_1 -> keyring[version='>=17.0.0']
+spyder -> keyring[version='>=17.0.0']
+
+Package ujson conflicts for:
+anaconda==2021.11=py39_0 -> ujson==4.0.2=py39h23ab428_0
+anaconda==2021.11=py39_0 -> python-lsp-jsonrpc==1.0.0=pyhd3eb1b0_0 -> ujson[version='>=3.0|>=3.0.0']
+python-lsp-black -> python-lsp-server[version='>=1.4.0'] -> ujson[version='>=3.0|>=3.0.0']
+python-lsp-jsonrpc -> ujson[version='>=3.0.0']
+spyder -> python-lsp-server[version='>=1.7.1,<1.8.0'] -> ujson[version='<=1.35|>=3.0|>=3.0.0']
+navigator-updater -> ujson[version='>=4.0.1']
+pyls-spyder -> python-lsp-server[version='>=1.0.1'] -> ujson[version='<=1.35|>=3.0|>=3.0.0']
+python-lsp-server -> ujson[version='>=3.0|>=3.0.0']
+anaconda-navigator -> ujson[version='>=4.0.1']
+
+Package argon2-cffi-bindings conflicts for:
+notebook -> argon2-cffi -> argon2-cffi-bindings
+nbclassic -> argon2-cffi -> argon2-cffi-bindings
+argon2-cffi -> argon2-cffi-bindings
+jupyter_server -> argon2-cffi -> argon2-cffi-bindings
+
+Package charls conflicts for:
+anaconda==2021.11=py39_0 -> charls==2.2.0=h23ab428_0
+tifffile -> imagecodecs[version='>=2023.1.23'] -> charls[version='>=2.1.0,<2.2.0a0|>=2.2.0,<2.3.0a0|>=2.3.4,<2.4.0a0|>=2.4.1,<2.5.0a0']
+anaconda==2021.11=py39_0 -> imagecodecs==2021.8.26=py39ha952a84_0 -> charls[version='>=2.2.0,<2.3.0a0']
+imagecodecs -> charls[version='>=2.1.0,<2.2.0a0|>=2.2.0,<2.3.0a0|>=2.3.4,<2.4.0a0|>=2.4.1,<2.5.0a0']
+
+Package llvmlite conflicts for:
+numba -> llvmlite[version='0.20.*|0.21.*|0.21.0|0.23.0|0.27.*|>=0.28.0,<0.29.0a0|>=0.28.0|>=0.29.0,<0.30.0a0|>=0.29.0|>=0.30.0,<0.31.0a0|>=0.30.0|>=0.31.0,<0.32.0a0|>=0.31.0,<0.33|>=0.33.0,<0.34|>=0.34.0,<0.35|>=0.35.0,<0.36.0a0|>=0.36.0,<0.37.0a0|>=0.37.0,<0.38.0a0|>=0.38.0,<0.39.0a0|>=0.38.1,<0.39.0a0|>=0.39.1,<0.40.0a0|>=0.27.0,<0.28.0a0|>=0.26.0,<0.27.0a0|>=0.25.0,<0.26.0a0|>=0.21.0,<0.21.1.0a0|>=0.39.*,<0.40|>=0.33.0|>=0.33.0,<0.34.0a0|>=0.33.0|>=0.32.1|>=0.32.1,<0.33.0a0|>=0.32.0|>=0.32.0,<0.33.0a0|>=0.31.0|0.24.*|0.23.*|0.22.*',build=*_1]
+anaconda==2021.11=py39_0 -> numba==0.54.1=py39hae1ba45_0 -> llvmlite[version='>=0.37.0,<0.38.0a0']
+anaconda==2021.11=py39_0 -> llvmlite==0.37.0=py39he4411ff_1
+
+Package asn1crypto conflicts for:
+pyjwt -> cryptography[version='>=1.4'] -> asn1crypto[version='>=0.21.0']
+cryptography -> asn1crypto[version='>=0.21.0']
+anaconda==2021.11=py39_0 -> asn1crypto==1.4.0=py_0
+pyopenssl -> cryptography[version='>=2.8'] -> asn1crypto[version='>=0.21.0']
+urllib3 -> cryptography[version='>=1.3.4'] -> asn1crypto[version='>=0.21.0']
+conda-content-trust -> cryptography -> asn1crypto[version='>=0.21.0']
+
+Package blas-devel conflicts for:
+numexpr -> blas=[build=openblas] -> blas-devel==3.9.0[build='10_mkl|14_osx64_mkl|16_osx64_mkl|8_openblas|10_openblas|11_osx64_openblas|12_osx64_openblas|14_osx64_openblas|15_osx64_openblas|16_osx64_openblas|13_osx64_openblas|9_openblas|7_openblas|15_osx64_mkl|13_osx64_mkl|12_osx64_mkl|11_osx64_mkl|9_mkl|8_mkl|7_mkl']
+numpy-base -> blas=[build=openblas] -> blas-devel==3.9.0[build='10_mkl|14_osx64_mkl|16_osx64_mkl|8_openblas|10_openblas|11_osx64_openblas|12_osx64_openblas|14_osx64_openblas|15_osx64_openblas|16_osx64_openblas|13_osx64_openblas|9_openblas|7_openblas|15_osx64_mkl|13_osx64_mkl|12_osx64_mkl|11_osx64_mkl|9_mkl|8_mkl|7_mkl']
+numpy -> blas=[build=openblas] -> blas-devel==3.9.0[build='10_mkl|14_osx64_mkl|16_osx64_mkl|8_openblas|10_openblas|11_osx64_openblas|12_osx64_openblas|14_osx64_openblas|15_osx64_openblas|16_osx64_openblas|13_osx64_openblas|9_openblas|7_openblas|15_osx64_mkl|13_osx64_mkl|12_osx64_mkl|11_osx64_mkl|9_mkl|8_mkl|7_mkl']
+scikit-learn -> blas=[build=openblas] -> blas-devel==3.9.0[build='10_mkl|14_osx64_mkl|16_osx64_mkl|8_openblas|10_openblas|11_osx64_openblas|12_osx64_openblas|14_osx64_openblas|15_osx64_openblas|16_osx64_openblas|13_osx64_openblas|9_openblas|7_openblas|15_osx64_mkl|13_osx64_mkl|12_osx64_mkl|11_osx64_mkl|9_mkl|8_mkl|7_mkl']
+scipy -> blas=[build=openblas] -> blas-devel==3.9.0[build='10_mkl|14_osx64_mkl|16_osx64_mkl|8_openblas|10_openblas|11_osx64_openblas|12_osx64_openblas|14_osx64_openblas|15_osx64_openblas|16_osx64_openblas|13_osx64_openblas|9_openblas|7_openblas|15_osx64_mkl|13_osx64_mkl|12_osx64_mkl|11_osx64_mkl|9_mkl|8_mkl|7_mkl']
+blas -> blas-devel==3.9.0[build='5_netlib|7_openblas|8_blis|8_openblas|9_blis|9_mkl|10_openblas|10_mkl|11_osx64_openblas|12_osx64_openblas|13_osx64_blis|14_osx64_openblas|14_osx64_mkl|15_osx64_accelerate|15_osx64_blis|16_osx64_mkl|16_osx64_openblas|16_osx64_blis|16_osx64_accelerate|15_osx64_mkl|15_osx64_openblas|14_osx64_accelerate|14_osx64_blis|13_osx64_mkl|13_osx64_openblas|13_osx64_accelerate|12_osx64_accelerate|12_osx64_mkl|12_osx64_blis|11_osx64_mkl|11_osx64_blis|10_blis|9_openblas|8_mkl|7_mkl|7_blis']
+mkl_fft -> blas=[build=mkl] -> blas-devel==3.9.0[build='7_mkl|9_mkl|10_mkl|11_osx64_mkl|16_osx64_mkl|15_osx64_mkl|14_osx64_mkl|13_osx64_mkl|12_osx64_mkl|8_mkl']
+mkl_random -> blas=[build=mkl] -> blas-devel==3.9.0[build='7_mkl|9_mkl|10_mkl|11_osx64_mkl|16_osx64_mkl|15_osx64_mkl|14_osx64_mkl|13_osx64_mkl|12_osx64_mkl|8_mkl']
+
+Package ptyprocess conflicts for:
+ipython -> pexpect[version='>4.3'] -> ptyprocess[version='>=0.5']
+jupyter_console -> pexpect -> ptyprocess[version='>=0.5']
+anaconda==2021.11=py39_0 -> ptyprocess==0.7.0=pyhd3eb1b0_2
+anaconda==2021.11=py39_0 -> pexpect==4.8.0=pyhd3eb1b0_3 -> ptyprocess[version='>=0.5']
+spyder -> pexpect[version='>=4.4.0'] -> ptyprocess[version='>=0.5']
+notebook -> terminado[version='>=0.8.3'] -> ptyprocess
+pexpect -> ptyprocess[version='>=0.5']
+terminado -> ptyprocess
+nbclassic -> terminado[version='>=0.8.3'] -> ptyprocess
+jupyter_server -> terminado[version='>=0.8.3'] -> ptyprocess
+
+Package threadpoolctl conflicts for:
+scikit-learn -> threadpoolctl[version='>=2.0.0']
+anaconda==2021.11=py39_0 -> scikit-learn==0.24.2=py39hb2f4e1b_0 -> threadpoolctl[version='>=2.0.0']
+nltk -> scikit-learn -> threadpoolctl[version='>=2.0.0']
+anaconda==2021.11=py39_0 -> threadpoolctl==2.2.0=pyh0d69192_0
+scikit-learn-intelex -> scikit-learn -> threadpoolctl[version='>=2.0.0']
+
+Package ipywidgets conflicts for:
+anaconda==2021.11=py39_0 -> jupyter==1.0.0=py39hecd8cb5_7 -> ipywidgets
+jupyter -> ipywidgets
+anaconda==2021.11=py39_0 -> ipywidgets==7.6.5=pyhd3eb1b0_1
+_ipyw_jlab_nb_ext_conf -> ipywidgets
+
+Package zfp conflicts for:
+tifffile -> imagecodecs[version='>=2023.1.23'] -> zfp[version='>=0.5.5,<1.0a0|>=1.0.0,<2.0a0']
+anaconda==2021.11=py39_0 -> imagecodecs==2021.8.26=py39ha952a84_0 -> zfp[version='>=0.5.5,<1.0a0']
+imagecodecs -> zfp[version='>=0.5.5,<1.0a0|>=1.0.0,<2.0a0']
+anaconda==2021.11=py39_0 -> zfp==0.5.5=h23ab428_6
+
+Package text-unidecode conflicts for:
+cookiecutter -> python-slugify[version='>=4.0.0'] -> text-unidecode[version='1.2.*|>=1.3']
+python-slugify -> text-unidecode[version='1.2.*|>=1.3|1.3.*']
+anaconda==2021.11=py39_0 -> python-slugify==5.0.2=pyhd3eb1b0_0 -> text-unidecode[version='>=1.3']
+anaconda==2021.11=py39_0 -> text-unidecode==1.3=pyhd3eb1b0_0
+
+Package whichcraft conflicts for:
+anaconda==2021.11=py39_0 -> whichcraft==0.6.1=pyhd3eb1b0_0
+spyder -> cookiecutter[version='>=1.6.0'] -> whichcraft[version='>=0.4.0']
+cookiecutter -> whichcraft[version='>=0.3.1|>=0.4.0']
+anaconda==2021.11=py39_0 -> cookiecutter==1.7.2=pyhd3eb1b0_0 -> whichcraft[version='>=0.4.0']
+
+Package wheel conflicts for:
+jupyterlab -> jupyter-packaging[version='>=0.7,<1'] -> wheel
+anaconda==2021.11=py39_0 -> wheel==0.37.0=pyhd3eb1b0_1
+pip -> wheel
+python=3.9 -> pip -> wheel
+jupyterlab_server -> jupyter-packaging[version='>=0.9,<2'] -> wheel
+jupyter_server -> jupyter-packaging[version='>=0.9,<1.0'] -> wheel
+anaconda==2021.11=py39_0 -> pip==21.2.4=py39hecd8cb5_0 -> wheel
+
+Package libclang conflicts for:
+qt -> libclang[version='13.*|>=13.0.0,<14.0a0|>=11.0.1,<12.0a0|>=11.0.0,<12.0a0|>=10.0.1,<11.0a0|>=9.0.1,<10.0a0|>=8.0.1,<9.0a0|>=8.0.0,<9.0a0']
+qt -> qt-main=5.15.8 -> libclang[version='>=12.0.0,<13.0a0|>=13.0.1,<14.0a0|>=14.0.6,<15.0a0|>=15.0.6,<16.0a0|>=15.0.5,<16.0a0|>=15.0.3,<16.0a0|>=14.0.4,<15.0a0|>=14.0.3,<15.0a0']
+
+Package textdistance conflicts for:
+anaconda==2021.11=py39_0 -> spyder==5.1.5=py39hecd8cb5_1 -> textdistance[version='>=4.2.0']
+anaconda==2021.11=py39_0 -> textdistance==4.2.1=pyhd3eb1b0_0
+spyder -> textdistance[version='>=4.2.0']
+
+Package numpydoc conflicts for:
+ipython -> jedi[version='>=0.10,<0.18'] -> numpydoc
+anaconda==2021.11=py39_0 -> numpydoc==1.1.0=pyhd3eb1b0_1
+jedi -> numpydoc
+anaconda==2021.11=py39_0 -> spyder==5.1.5=py39hecd8cb5_1 -> numpydoc[version='>=0.6.0']
+spyder -> numpydoc[version='>=0.6.0']
+
+Package lzo conflicts for:
+mamba -> libarchive[version='>=3.5.2,<3.6.0a0'] -> lzo[version='>=2.10,<3.0a0']
+conda-package-handling -> libarchive[version='>=3.3.3'] -> lzo[version='>=2.10,<3.0a0']
+conda-build -> libarchive -> lzo[version='>=2.10,<3.0a0']
+anaconda==2021.11=py39_0 -> lzo==2.10=haf1e3a3_2
+python-libarchive-c -> libarchive -> lzo[version='>=2.10,<3.0a0']
+pytables -> lzo[version='>=2.10,<3.0a0']
+anaconda==2021.11=py39_0 -> pytables==3.6.1=py39h648f197_1 -> lzo[version='>=2.10,<3.0a0']
+libarchive -> lzo[version='>=2.10,<3.0a0']
+
+Package wcwidth conflicts for:
+jupyter_console -> prompt_toolkit[version='>=2.0.0,<3.1.0,!=3.0.0,!=3.0.1'] -> wcwidth
+prompt-toolkit -> wcwidth
+astropy -> pytest -> wcwidth
+pytest -> wcwidth
+prompt_toolkit -> wcwidth
+nltk -> pytest -> wcwidth
+ipython -> prompt-toolkit[version='>=3.0.30,<3.1.0'] -> wcwidth
+anaconda==2021.11=py39_0 -> wcwidth==0.2.5=pyhd3eb1b0_0
+anaconda==2021.11=py39_0 -> prompt-toolkit==3.0.20=pyhd3eb1b0_0 -> wcwidth
+
+Package imagecodecs conflicts for:
+anaconda==2021.11=py39_0 -> imagecodecs==2021.8.26=py39ha952a84_0
+scikit-image -> tifffile[version='>=2019.7.26'] -> imagecodecs[version='>=2021.1.11|>=2021.11.20|>=2023.1.23|>=2021.7.30|>=2021.4.28|>=2021.3.31|>=2021.1.8']
+tifffile -> imagecodecs[version='>=2021.1.11|>=2021.11.20|>=2023.1.23|>=2021.7.30|>=2021.4.28|>=2021.3.31|>=2021.1.8']
+anaconda==2021.11=py39_0 -> tifffile==2021.7.2=pyhd3eb1b0_2 -> imagecodecs[version='>=2021.4.28']
+
+Package pickleshare conflicts for:
+spyder -> pickleshare[version='>=0.4']
+anaconda==2021.11=py39_0 -> pickleshare==0.7.5=pyhd3eb1b0_1003
+spyder-kernels -> ipython[version='>=7.31.1,<9.0.0'] -> pickleshare
+anaconda==2021.11=py39_0 -> ipython==7.29.0=py39h01d92e1_0 -> pickleshare[version='>=0.4']
+jupyter_console -> ipython -> pickleshare
+matplotlib-inline -> ipython -> pickleshare
+ipywidgets -> ipython[version='>=6.1.0'] -> pickleshare
+jupyterlab -> ipython -> pickleshare
+ipykernel -> ipython[version='>=7.23.1'] -> pickleshare
+ipython -> pickleshare
+
+Package webencodings conflicts for:
+nbconvert -> bleach -> webencodings[version='>=0.4']
+anaconda==2021.11=py39_0 -> webencodings==0.5.1=py39hecd8cb5_1
+bleach -> webencodings
+anaconda==2021.11=py39_0 -> bleach==4.0.0=pyhd3eb1b0_0 -> webencodings
+qstylizer -> tinycss2[version='>=1.1.0,<2.0'] -> webencodings[version='>=0.4']
+html5lib -> webencodings
+
+Package brotli-bin conflicts for:
+imagecodecs -> brotli[version='>=1.0.9,<2.0a0'] -> brotli-bin==1.0.9[build='hca72f7f_7|h5eb16cf_7|hb7f2c08_8|h0d85af4_6|h0d85af4_5']
+fonttools -> brotli -> brotli-bin==1.0.9[build='hca72f7f_7|h5eb16cf_7|hb7f2c08_8|h0d85af4_6|h0d85af4_5']
+brotli -> brotli-bin==1.0.9[build='hca72f7f_7|h5eb16cf_7|hb7f2c08_8|h0d85af4_6|h0d85af4_5']
+brunsli -> brotli[version='>=1.0.9,<2.0a0'] -> brotli-bin==1.0.9[build='hca72f7f_7|h5eb16cf_7|hb7f2c08_8|h0d85af4_6|h0d85af4_5']
+
+Package docutils conflicts for:
+anaconda==2021.11=py39_0 -> sphinx==4.2.0=pyhd3eb1b0_1 -> docutils[version='>=0.14,<0.18']
+sphinxcontrib-serializinghtml -> sphinx -> docutils[version='>=0.11|>=0.12,<0.17|>=0.14,<0.18|>=0.14,<0.19|>=0.14,<0.20|>=0.18,<0.20|>=0.12']
+numpydoc -> sphinx[version='>=1.8'] -> docutils[version='>=0.11|>=0.12,<0.17|>=0.14,<0.18|>=0.14,<0.19|>=0.14,<0.20|>=0.18,<0.20|>=0.12']
+sphinx -> docutils[version='>=0.11|>=0.12,<0.17|>=0.14,<0.18|>=0.14,<0.19|>=0.14,<0.20|>=0.18,<0.20|>=0.12']
+sphinxcontrib-websupport -> sphinx -> docutils[version='>=0.11|>=0.12,<0.17|>=0.14,<0.18|>=0.14,<0.19|>=0.14,<0.20|>=0.18,<0.20|>=0.12']
+anaconda==2021.11=py39_0 -> docutils==0.17.1=py39hecd8cb5_1
+spyder -> sphinx[version='>=0.6.6'] -> docutils[version='>=0.11|>=0.12,<0.17|>=0.14,<0.18|>=0.14,<0.19|>=0.14,<0.20|>=0.18,<0.20|>=0.12']
+
+Package libxslt conflicts for:
+lxml -> libxslt[version='>=1.1.28|>=1.1.32,<2.0a0|>=1.1.33,<2.0a0|>=1.1.35,<2.0a0|>=1.1.37,<2.0a0|>=1.1.34,<2.0a0']
+anaconda==2021.11=py39_0 -> lxml==4.6.3=py39h26b266a_0 -> libxslt[version='>=1.1.34,<2.0a0']
+appscript -> lxml[version='>=4.7.1'] -> libxslt[version='>=1.1.28|>=1.1.33,<2.0a0|>=1.1.35,<2.0a0|>=1.1.37,<2.0a0|>=1.1.34,<2.0a0']
+nbconvert -> lxml -> libxslt[version='>=1.1.28|>=1.1.32,<2.0a0|>=1.1.33,<2.0a0|>=1.1.35,<2.0a0|>=1.1.37,<2.0a0|>=1.1.34,<2.0a0']
+pyqt -> qtwebkit=5 -> libxslt[version='>=1.1.33,<2.0a0|>=1.1.37,<2.0a0|>=1.1.35,<2.0a0']
+anaconda==2021.11=py39_0 -> libxslt==1.1.34=h83b36ba_0
+
+Package blis conflicts for:
+scipy -> libblas[version='>=3.9.0,<4.0a0'] -> blis[version='0.5.1.*|>=0.5.2,<0.5.3.0a0|>=0.6.0,<0.6.1.0a0|>=0.6.1,<0.6.2.0a0|>=0.7.0,<0.7.1.0a0|>=0.8.0,<0.8.1.0a0|>=0.8.1,<0.8.2.0a0|>=0.9.0,<0.9.1.0a0']
+blas -> libblas==3.9.0=16_osx64_blis -> blis[version='0.5.1.*|>=0.5.2,<0.5.3.0a0|>=0.6.0,<0.6.1.0a0|>=0.6.1,<0.6.2.0a0|>=0.7.0,<0.7.1.0a0|>=0.8.0,<0.8.1.0a0|>=0.8.1,<0.8.2.0a0|>=0.9.0,<0.9.1.0a0']
+numpy -> libblas[version='>=3.9.0,<4.0a0'] -> blis[version='0.5.1.*|>=0.5.2,<0.5.3.0a0|>=0.6.0,<0.6.1.0a0|>=0.6.1,<0.6.2.0a0|>=0.7.0,<0.7.1.0a0|>=0.8.0,<0.8.1.0a0|>=0.8.1,<0.8.2.0a0|>=0.9.0,<0.9.1.0a0']
+
+Package helpdev conflicts for:
+spyder -> qdarkstyle[version='>=2.8,<3.0'] -> helpdev[version='>=0.6.10']
+qdarkstyle -> helpdev[version='>=0.6.10']
+
+Package pathlib conflicts for:
+scipy -> pooch -> pathlib
+conda-repo-cli -> pathlib
+anaconda-navigator -> conda-repo-cli -> pathlib
+scikit-image -> tifffile[version='>=2019.7.26'] -> pathlib
+tifffile -> pathlib
+
+Package heapdict conflicts for:
+anaconda==2021.11=py39_0 -> heapdict==1.0.1=pyhd3eb1b0_0
+distributed -> zict[version='>=2.1.0'] -> heapdict
+zict -> heapdict
+anaconda==2021.11=py39_0 -> zict==2.0.0=pyhd3eb1b0_0 -> heapdict
+
+Package jupyter_ydoc conflicts for:
+jupyterlab -> jupyter_ydoc[version='>=0.2.2,<0.3|>=0.2.3,<0.3']
+jupyterlab -> jupyter_server_ydoc[version='>=0.8.0,<0.9.0'] -> jupyter_ydoc[version='>=0.2.0,<0.4.0']
+
+Package zope conflicts for:
+attrs -> zope
+anaconda==2021.11=py39_0 -> zope.interface==5.4.0=py39h9ed2024_0 -> zope
+pytest -> attrs[version='>=17.2.0'] -> zope
+zope.interface -> zope
+anaconda==2021.11=py39_0 -> zope==1.0=py39hecd8cb5_1
+gevent -> zope.interface -> zope
+
+Package jupyter_events conflicts for:
+nbclassic -> jupyter_server[version='>=1.8'] -> jupyter_events[version='>=0.4.0']
+jupyterlab -> jupyter_server[version='>=1.16.0,<3'] -> jupyter_events[version='>=0.4.0']
+jupyterlab_server -> jupyter_server[version='>=1.21,<3'] -> jupyter_events[version='>=0.4.0']
+jupyter_server -> jupyter_events[version='>=0.4.0']
+
+Package lazy-object-proxy conflicts for:
+anaconda==2021.11=py39_0 -> lazy-object-proxy==1.6.0=py39h9ed2024_0
+anaconda==2021.11=py39_0 -> astroid==2.6.6=py39hecd8cb5_0 -> lazy-object-proxy[version='>=1.4.0']
+astroid -> lazy-object-proxy[version='1.4.*|>=1.4,<2|>=1.4.0']
+pylint -> astroid[version='>=2.15.0,<2.17.0-dev0'] -> lazy-object-proxy[version='1.4.*|>=1.4,<2|>=1.4.0']
+
+Package win_inet_pton conflicts for:
+urllib3 -> pysocks[version='>=1.5.6,<2.0,!=1.5.7'] -> win_inet_pton
+pysocks -> win_inet_pton
+
+Package sphinxcontrib-htmlhelp conflicts for:
+anaconda==2021.11=py39_0 -> sphinx==4.2.0=pyhd3eb1b0_1 -> sphinxcontrib-htmlhelp
+anaconda==2021.11=py39_0 -> sphinxcontrib-htmlhelp==2.0.0=pyhd3eb1b0_0
+sphinx -> sphinxcontrib-htmlhelp[version='>=2.0.0']
+sphinxcontrib-websupport -> sphinx -> sphinxcontrib-htmlhelp[version='>=2.0.0']
+numpydoc -> sphinx[version='>=1.8'] -> sphinxcontrib-htmlhelp[version='>=2.0.0']
+spyder -> sphinx[version='>=0.6.6'] -> sphinxcontrib-htmlhelp[version='>=2.0.0']
+sphinxcontrib-serializinghtml -> sphinx -> sphinxcontrib-htmlhelp[version='>=2.0.0']
+
+Package jupyter_console conflicts for:
+anaconda==2021.11=py39_0 -> jupyter_console==6.4.0=pyhd3eb1b0_0
+jupyter -> jupyter_console
+anaconda==2021.11=py39_0 -> jupyter==1.0.0=py39hecd8cb5_7 -> jupyter_console
+
+Package jdcal conflicts for:
+openpyxl -> jdcal
+anaconda==2021.11=py39_0 -> jdcal==1.4.1=pyhd3eb1b0_0
+
+Package filelock conflicts for:
+conda-build -> filelock
+anaconda==2021.11=py39_0 -> filelock==3.3.1=pyhd3eb1b0_1
+
+Package poyo conflicts for:
+anaconda==2021.11=py39_0 -> poyo==0.5.0=pyhd3eb1b0_0
+cookiecutter -> poyo[version='>=0.1.0|>=0.5.0']
+anaconda==2021.11=py39_0 -> cookiecutter==1.7.2=pyhd3eb1b0_0 -> poyo[version='>=0.5.0']
+spyder -> cookiecutter[version='>=1.6.0'] -> poyo[version='>=0.1.0|>=0.5.0']
+
+Package mpmath conflicts for:
+anaconda==2021.11=py39_0 -> mpmath==1.2.1=py39hecd8cb5_0
+sympy -> mpmath[version='>=0.19']
+anaconda==2021.11=py39_0 -> sympy==1.9=py39hecd8cb5_0 -> mpmath[version='>=0.19']
+
+Package mpich conflicts for:
+scikit-learn-intelex -> daal4py==2023.0.2 -> mpich[version='>=3.3.2,<3.4.0a0|>=4.0.2,<5.0a0|>=4.0.3,<5.0a0|>=3.4.3,<5.0a0|>=3.4.2,<5.0a0|>=3.4.1,<5.0a0']
+daal4py -> mpich[version='>=3.3.2,<3.4.0a0|>=3.4.1,<5.0a0|>=3.4.2,<5.0a0|>=3.4.3,<5.0a0|>=4.0.2,<5.0a0|>=4.0.3,<5.0a0']
+pytables -> hdf5[version='>=1.14.0,<1.14.1.0a0'] -> mpich[version='>=3.2,<3.3.0a0|>=3.3,<5.0.0a0|>=3.4,<5.0.0a0|>=4.0,<4.1.0a0|>=4.0.2,<4.1.0a0|>=4.0.3,<5.0a0']
+hdf5 -> mpich[version='>=3.2,<3.3.0a0|>=3.3,<5.0.0a0|>=3.4,<5.0.0a0|>=4.0,<4.1.0a0|>=4.0.2,<4.1.0a0|>=4.0.3,<5.0a0']
+h5py -> mpich[version='>=3.2,<3.3.0a0|>=3.2.1,<3.3.0a0|>=3.3.1,<5.0.0a0|>=3.3.2,<5.0.0a0|>=3.4.1,<5.0a0|>=3.4.2,<5.0a0|>=4.0.2,<5.0a0|>=4.0.3,<5.0a0']
+anaconda==2021.11=py39_0 -> daal4py==2021.3.0=py39h01d92e1_0 -> mpich[version='>=3.3.2,<3.4.0a0']
+scipy -> fftw[version='>=3.3.9,<4.0a0'] -> mpich[version='>=3.4,<5.0.0a0|>=3.4.1,<5.0a0|>=3.4.2,<5.0a0|>=4.0.2,<5.0a0|>=4.0.3,<5.0a0']
+h5py -> hdf5[version='>=1.12.2,<1.12.3.0a0'] -> mpich[version='3.2.*|>=3.3,<5.0.0a0|>=3.4,<5.0.0a0|>=4.0.1,<5.0a0|>=4.0.2,<4.1.0a0|>=3.3,<3.4.0a0|>=4.0,<4.1.0a0']
+anaconda==2021.11=py39_0 -> mpich==3.3.2=hc856adb_0
+
+Package xyzservices conflicts for:
+distributed -> bokeh[version='>=0.12.3'] -> xyzservices[version='>=2021.09.1']
+bokeh -> xyzservices[version='>=2021.09.1']
+dask -> bokeh[version='>=2.4.2'] -> xyzservices[version='>=2021.09.1']
+
+Package pydocstyle conflicts for:
+python-lsp-black -> python-lsp-server[version='>=1.4.0'] -> pydocstyle[version='>=2.0.0|>=6.2.0,<6.3.0|>=6.3.0,<6.4.0']
+anaconda==2021.11=py39_0 -> python-lsp-server==1.2.4=pyhd3eb1b0_0 -> pydocstyle[version='>=2.0.0']
+python-lsp-server -> pydocstyle[version='>=2.0.0|>=6.2.0,<6.3.0|>=6.3.0,<6.4.0']
+anaconda==2021.11=py39_0 -> pydocstyle==6.1.1=pyhd3eb1b0_0
+pyls-spyder -> python-lsp-server[version='>=1.0.1'] -> pydocstyle[version='>=2.0.0|>=6.2.0,<6.3.0|>=6.3.0,<6.4.0']
+spyder -> python-lsp-server[version='>=1.7.1,<1.8.0'] -> pydocstyle[version='>=2.0.0|>=6.2.0,<6.3.0|>=6.3.0,<6.4.0']
+
+Package scikit-learn conflicts for:
+nltk -> scikit-learn
+scikit-learn-intelex -> scikit-learn[version='<1.1|>=0.22|>=0.21']
+anaconda==2021.11=py39_0 -> scikit-learn-intelex==2021.3.0=py39hecd8cb5_0 -> scikit-learn[version='>=0.22']
+anaconda==2021.11=py39_0 -> scikit-learn==0.24.2=py39hb2f4e1b_0
+
+Package astroid conflicts for:
+pylint -> astroid[version='2.5.6|>=2.11.0,<=2.12.0|>=2.11.2,<=2.12.0|>=2.11.3,<=2.12.0|>=2.11.5,<2.12.0|>=2.11.6,<2.12.0|>=2.12.10,<2.14.0-dev0|>=2.12.11,<2.14.0-dev0|>=2.12.12,<2.14.0-dev0|>=2.12.13,<2.14.0-dev0|>=2.14.1,<2.16.0-dev0|>=2.14.2,<2.16.0-dev0|>=2.15.0,<2.17.0-dev0|>=2.12.9,<2.14.0-dev0|>=2.12.4,<2.14.0-dev0|>=2.9.0,<2.10|>=2.8.0,<2.9|>=2.7.2,<2.8|>=2.6.5,<2.7|>=2.6.4,<2.7|>=2.6.2,<2.7|>=2.6.1,<2.7|>=2.5.7,<2.7|>=2.5.1,<2.6|>=2.4.0,<=2.5|>=2.4.0,<2.5|>=2.3.0,<2.4|>=2.2.0,<3|>=2.2.0|>=2.0.0|>=1.6,<2.0|>=1.5.1|>=1.4.5,<1.5.0|>=2.14.2,<=2.16.0|>=2.6.5,<=2.7|>=2.6.2,<=2.7|>=2.5.8,<=2.7']
+anaconda==2021.11=py39_0 -> astroid==2.6.6=py39hecd8cb5_0
+python-lsp-server -> pylint[version='>=2.5.0,<3.0.0'] -> astroid[version='2.5.6|>=2.11.0,<=2.12.0|>=2.11.2,<=2.12.0|>=2.11.3,<=2.12.0|>=2.11.5,<2.12.0|>=2.11.6,<2.12.0|>=2.12.10,<2.14.0-dev0|>=2.12.11,<2.14.0-dev0|>=2.12.12,<2.14.0-dev0|>=2.12.13,<2.14.0-dev0|>=2.14.1,<2.16.0-dev0|>=2.14.2,<2.16.0-dev0|>=2.15.0,<2.17.0-dev0|>=2.12.9,<2.14.0-dev0|>=2.12.4,<2.14.0-dev0|>=2.9.0,<2.10|>=2.8.0,<2.9|>=2.7.2,<2.8|>=2.6.5,<2.7|>=2.6.4,<2.7|>=2.6.2,<2.7|>=2.6.1,<2.7|>=2.5.7,<2.7|>=2.5.1,<2.6|>=2.4.0,<=2.5|>=2.4.0,<2.5|>=2.14.2,<=2.16.0|>=2.6.5,<=2.7|>=2.6.2,<=2.7|>=2.5.8,<=2.7']
+spyder -> pylint[version='>=2.5.0,<3.0'] -> astroid[version='2.5.6|>=2.11.0,<=2.12.0|>=2.11.2,<=2.12.0|>=2.11.3,<=2.12.0|>=2.11.5,<2.12.0|>=2.11.6,<2.12.0|>=2.12.10,<2.14.0-dev0|>=2.12.11,<2.14.0-dev0|>=2.12.12,<2.14.0-dev0|>=2.12.13,<2.14.0-dev0|>=2.14.1,<2.16.0-dev0|>=2.14.2,<2.16.0-dev0|>=2.15.0,<2.17.0-dev0|>=2.12.9,<2.14.0-dev0|>=2.12.4,<2.14.0-dev0|>=2.9.0,<2.10|>=2.8.0,<2.9|>=2.7.2,<2.8|>=2.6.5,<2.7|>=2.6.4,<2.7|>=2.6.2,<2.7|>=2.6.1,<2.7|>=2.5.7,<2.7|>=2.5.1,<2.6|>=2.4.0,<=2.5|>=2.4.0,<2.5|>=2.14.2,<=2.16.0|>=2.6.5,<=2.7|>=2.6.2,<=2.7|>=2.5.8,<=2.7|>=2.3.0,<2.4|>=2.2.0,<3|>=2.2.0|>=2.0.0|>=1.6,<2.0|>=1.5.1|>=1.4.5,<1.5.0']
+anaconda==2021.11=py39_0 -> pylint==2.9.6=py39hecd8cb5_1 -> astroid[version='>=2.6.5,<=2.7']
+
+Package selectors2 conflicts for:
+wurlitzer -> selectors2
+spyder-kernels -> wurlitzer[version='>=1.0.3'] -> selectors2
+
+Package conda-content-trust conflicts for:
+anaconda==2021.11=py39_0 -> conda-content-trust==0.1.1=pyhd3eb1b0_0
+conda-token -> conda-content-trust
+anaconda==2021.11=py39_0 -> conda-token==0.3.0=pyhd3eb1b0_0 -> conda-content-trust
+anaconda-navigator -> conda-token -> conda-content-trust
+
+Package py-lief conflicts for:
+anaconda==2021.11=py39_0 -> py-lief==0.10.1=py39h23ab428_1
+conda-build -> py-lief
+
+Package pkginfo conflicts for:
+anaconda==2021.11=py39_0 -> pkginfo==1.7.1=py39hecd8cb5_0
+conda-build -> pkginfo
+
+Package pathspec conflicts for:
+anaconda==2021.11=py39_0 -> black==19.10b0=py_0 -> pathspec
+black -> pathspec[version='>=0.6,<1|>=0.8.1,<1|>=0.9|>=0.9,<1|>=0.9.0']
+anaconda==2021.11=py39_0 -> pathspec==0.7.0=py_0
+python-lsp-black -> black[version='>=22.3.0'] -> pathspec[version='>=0.6,<1|>=0.8.1,<1|>=0.9.0|>=0.9|>=0.9,<1']
+ipython -> black -> pathspec[version='>=0.6,<1|>=0.8.1,<1|>=0.9|>=0.9,<1|>=0.9.0']
+
+Package deprecation conflicts for:
+jupyter_server -> jupyter-packaging[version='>=0.9,<1.0'] -> deprecation
+jupyterlab_server -> jupyter-packaging[version='>=0.9,<2'] -> deprecation
+jupyterlab -> jupyter-packaging[version='>=0.7,<1'] -> deprecation
+
+Package liblief conflicts for:
+py-lief -> liblief[version='0.10.1|0.10.1|0.10.1|0.10.1|0.10.1|0.10.1|0.11.3|0.11.4|0.11.5|0.11.5|0.12.1|0.12.2|0.12.2|0.12.3|0.9.0|0.9.0|0.9.0|0.12.3|0.11.5|0.9.0|0.8.3',build='h2a1bed3_1|h2a1bed3_2|h23ab428_1|h2a1bed3_0|h2a1bed3_1|hb1e8313_1|he49afe7_0|he49afe7_0|he49afe7_0|he49afe7_1|hbbd2c75_0|hf0c8a7f_0|hf0c8a7f_0|hf0c8a7f_1|hb1e8313_2|hb1e8313_0|h3e78482_1|hcec6c5f_0|he9d5cce_1|he9d5cce_1|h0a44026_0']
+anaconda==2021.11=py39_0 -> liblief==0.10.1=h23ab428_1
+conda-build -> py-lief -> liblief[version='0.10.1|0.10.1|0.10.1|0.10.1|0.10.1|0.10.1|0.11.3|0.11.4|0.11.5|0.11.5|0.12.1|0.12.2|0.12.2|0.12.3|0.9.0|0.9.0|0.9.0|0.12.3|0.11.5|0.9.0|0.8.3',build='h2a1bed3_1|h2a1bed3_2|h23ab428_1|h2a1bed3_0|h2a1bed3_1|hb1e8313_1|he49afe7_0|he49afe7_0|he49afe7_0|he49afe7_1|hbbd2c75_0|hf0c8a7f_0|hf0c8a7f_0|hf0c8a7f_1|hb1e8313_2|hb1e8313_0|h3e78482_1|hcec6c5f_0|he9d5cce_1|he9d5cce_1|h0a44026_0']
+
+Package python-lsp-black conflicts for:
+anaconda==2021.11=py39_0 -> spyder==5.1.5=py39hecd8cb5_1 -> python-lsp-black[version='>=1.0.0']
+anaconda==2021.11=py39_0 -> python-lsp-black==1.0.0=pyhd3eb1b0_0
+spyder -> python-lsp-black[version='>=1.0.0|>=1.2.0']
+
+Package mock conflicts for:
+pytables -> mock
+anaconda==2021.11=py39_0 -> pytables==3.6.1=py39h648f197_1 -> mock
+anaconda==2021.11=py39_0 -> mock==4.0.3=pyhd3eb1b0_0
+
+Package tblib conflicts for:
+distributed -> tblib[version='>=1.6.0']
+anaconda==2021.11=py39_0 -> distributed==2021.10.0=py39hecd8cb5_0 -> tblib[version='>=1.6.0']
+dask -> distributed[version='>=2023.3.1,<2023.3.2.0a0'] -> tblib[version='>=1.6.0']
+anaconda==2021.11=py39_0 -> tblib==1.7.0=pyhd3eb1b0_0
+
+Package cookiecutter conflicts for:
+anaconda==2021.11=py39_0 -> cookiecutter==1.7.2=pyhd3eb1b0_0
+anaconda==2021.11=py39_0 -> spyder==5.1.5=py39hecd8cb5_1 -> cookiecutter[version='>=1.6.0']
+spyder -> cookiecutter[version='>=1.6.0']
+
+Package llvmdev conflicts for:
+llvmlite -> llvmdev=9.0
+numba -> llvmlite[version='>=0.33.0,<0.34'] -> llvmdev=9.0
+
+Package ripgrep conflicts for:
+conda-build -> ripgrep
+anaconda==2021.11=py39_0 -> ripgrep==12.1.1=0
+
+Package python-language-server conflicts for:
+spyder -> pyls-black[version='>=0.4.6'] -> python-language-server[version='>=0.36.2']
+spyder -> python-language-server[version='>=0.31.2,<0.32.0|>=0.31.9,<0.32.0|>=0.34.0,<1.0.0|>=0.36.1,<1.0.0|>=0.36.2,<1.0.0']
+
+Package nbconvert-pandoc conflicts for:
+jupyter -> nbconvert -> nbconvert-pandoc[version='6.4.5|6.5.0|6.5.1|6.5.2|6.5.3|7.0.0|7.1.0|7.2.1|7.2.2|7.2.3|7.2.4|7.2.5|7.2.6|7.2.7|7.2.8|7.2.9',build='pyhd8ed1ab_2|pyhd8ed1ab_0']
+nbconvert -> nbconvert-pandoc[version='6.4.5|6.5.0|6.5.1|6.5.2|6.5.3|7.0.0|7.1.0|7.2.1|7.2.2|7.2.3|7.2.4|7.2.5|7.2.6|7.2.7|7.2.8|7.2.9',build='pyhd8ed1ab_2|pyhd8ed1ab_0']
+nbclassic -> nbconvert[version='>=5'] -> nbconvert-pandoc[version='6.4.5|6.5.0|6.5.1|6.5.2|6.5.3|7.0.0|7.1.0|7.2.1|7.2.2|7.2.3|7.2.4|7.2.5|7.2.6|7.2.7|7.2.8|7.2.9',build='pyhd8ed1ab_2|pyhd8ed1ab_0']
+notebook -> nbconvert[version='>=5'] -> nbconvert-pandoc[version='6.4.5|6.5.0|6.5.1|6.5.2|6.5.3|7.0.0|7.1.0|7.2.1|7.2.2|7.2.3|7.2.4|7.2.5|7.2.6|7.2.7|7.2.8|7.2.9',build='pyhd8ed1ab_2|pyhd8ed1ab_0']
+jupyter_server -> nbconvert[version='>=6.4.4'] -> nbconvert-pandoc[version='6.4.5|6.5.0|6.5.1|6.5.2|6.5.3|7.0.0|7.1.0|7.2.1|7.2.2|7.2.3|7.2.4|7.2.5|7.2.6|7.2.7|7.2.8|7.2.9',build='pyhd8ed1ab_2|pyhd8ed1ab_0']
+spyder -> nbconvert[version='>=4.0'] -> nbconvert-pandoc[version='6.4.5|6.5.0|6.5.1|6.5.2|6.5.3|7.0.0|7.1.0|7.2.1|7.2.2|7.2.3|7.2.4|7.2.5|7.2.6|7.2.7|7.2.8|7.2.9',build='pyhd8ed1ab_2|pyhd8ed1ab_0']
+
+Package libllvm13 conflicts for:
+conda-build -> cctools -> libllvm13[version='>=13.0.1,<13.1.0a0']
+qt -> libclang=13 -> libllvm13[version='>=13.0.0,<13.1.0a0|>=13.0.1,<13.1.0a0']
+
+Package _low_priority conflicts for:
+libarchive -> _low_priority
+conda-build -> libarchive -> _low_priority
+python-libarchive-c -> libarchive -> _low_priority
+
+Package tbb4py conflicts for:
+mkl_random -> numpy-base[version='>=1.2.1,<2.0a0'] -> tbb4py
+numpy-base -> tbb4py
+mkl_fft -> numpy-base[version='>=1.2.1,<2.0a0'] -> tbb4py
+anaconda==2021.11=py39_0 -> tbb4py==2021.4.0=py39haf03e11_0
+numpy -> numpy-base==1.15.4=py36h8a80b8c_0 -> tbb4py
+
+Package jaraco.itertools conflicts for:
+zipp -> jaraco.itertools
+importlib-metadata -> zipp[version='>=0.5'] -> jaraco.itertools
+importlib_metadata -> zipp[version='>=0.5'] -> jaraco.itertools
+
+Package pbr conflicts for:
+mock -> pbr[version='>=1.3']
+pytables -> mock -> pbr[version='>=1.3']
+
+Package python_abi conflicts for:
+pyodbc -> python[version='>=3.8,<3.9.0a0'] -> python_abi[version='3.6|3.7|3.8|3.9',build='*_pypy39_pp73|*_pypy38_pp73|*_pypy37_pp73|*_pypy36_pp73']
+pyodbc -> python_abi[version='2.7.*|3.10.*|3.11.*|3.8.*|3.9.*|3.7.*|3.6.*',build='*_cp27m|*_cp36m|*_cp37m|*_cp310|*_cp311|*_cp38|*_cp39']
+
+Package bkcharts conflicts for:
+anaconda==2021.11=py39_0 -> bkcharts==0.2=py39hecd8cb5_0
+distributed -> bokeh[version='>=0.12.3'] -> bkcharts[version='>=0.2']
+dask -> bokeh -> bkcharts[version='>=0.2']
+bokeh -> bkcharts[version='>=0.2']
+
+Package sphinxcontrib-qthelp conflicts for:
+anaconda==2021.11=py39_0 -> sphinxcontrib-qthelp==1.0.3=pyhd3eb1b0_0
+spyder -> sphinx[version='>=0.6.6'] -> sphinxcontrib-qthelp
+sphinxcontrib-websupport -> sphinx -> sphinxcontrib-qthelp
+numpydoc -> sphinx[version='>=1.8'] -> sphinxcontrib-qthelp
+sphinxcontrib-serializinghtml -> sphinx -> sphinxcontrib-qthelp
+sphinx -> sphinxcontrib-qthelp
+anaconda==2021.11=py39_0 -> sphinx==4.2.0=pyhd3eb1b0_1 -> sphinxcontrib-qthelp
+
+Package immutables conflicts for:
+distributed -> contextvars -> immutables[version='0.5|0.6|>=0.9']
+sniffio -> contextvars[version='>=2.1'] -> immutables[version='0.5|0.6|>=0.9']
+
+Package html5lib conflicts for:
+nbconvert -> bleach -> html5lib[version='>=0.999,!=0.9999,!=0.99999,<0.99999999|>=0.99999999|>=0.99999999pre,!=1.0b1,!=1.0b2,!=1.0b3,!=1.0b4,!=1.0b5,!=1.0b6,!=1.0b7,!=1.0b8']
+anaconda==2021.11=py39_0 -> html5lib==1.1=pyhd3eb1b0_0
+bleach -> html5lib[version='>=0.999,!=0.9999,!=0.99999,<0.99999999|>=0.99999999|>=0.99999999pre,!=1.0b1,!=1.0b2,!=1.0b3,!=1.0b4,!=1.0b5,!=1.0b6,!=1.0b7,!=1.0b8']
+
+Package cloog conflicts for:
+scipy -> libgcc -> cloog==0.18.0
+giflib -> libgcc -> cloog==0.18.0
+
+Package pyobjc-framework-cocoa conflicts for:
+spyder -> watchdog -> pyobjc-framework-cocoa[version='>=4.2.2']
+watchdog -> pyobjc-framework-fsevents[version='>=4.2.2'] -> pyobjc-framework-cocoa[version='8.2.*|8.4.*|8.4.1.*|8.5.*|8.5.1.*|9.0.*|>=6.1|>=5.1|>=6.2.2|>=6.2.1']
+watchdog -> pyobjc-framework-cocoa[version='>=4.2.2']
+
+Package python-lsp-jsonrpc conflicts for:
+anaconda==2021.11=py39_0 -> python-lsp-server==1.2.4=pyhd3eb1b0_0 -> python-lsp-jsonrpc[version='>=1.0.0']
+pyls-spyder -> python-lsp-server[version='>=1.0.1'] -> python-lsp-jsonrpc[version='>=1.0.0']
+anaconda==2021.11=py39_0 -> python-lsp-jsonrpc==1.0.0=pyhd3eb1b0_0
+python-lsp-server -> python-lsp-jsonrpc[version='>=1.0.0']
+spyder -> python-lsp-server[version='>=1.7.1,<1.8.0'] -> python-lsp-jsonrpc[version='>=1.0.0']
+python-lsp-black -> python-lsp-server[version='>=1.4.0'] -> python-lsp-jsonrpc[version='>=1.0.0']
+
+Package sniffio conflicts for:
+anyio -> sniffio[version='>=1.1']
+jupyter_server -> anyio[version='>=3.1.0,<4'] -> sniffio[version='>=1.1']
+anaconda==2021.11=py39_0 -> sniffio==1.2.0=py39hecd8cb5_1
+anaconda==2021.11=py39_0 -> anyio==2.2.0=py39hecd8cb5_1 -> sniffio[version='>=1.1']
+
+Package gmpy2 conflicts for:
+anaconda==2021.11=py39_0 -> sympy==1.9=py39hecd8cb5_0 -> gmpy2[version='>=2.0.8']
+anaconda==2021.11=py39_0 -> gmpy2==2.0.8=py39h4b98818_3
+mpmath -> gmpy2
+sympy -> gmpy2[version='>=2.0.8']
+sympy -> mpmath[version='>=0.19'] -> gmpy2
+
+Package c-blosc2 conflicts for:
+imagecodecs -> c-blosc2[version='>=2.0.4,<3.0a0|>=2.1.1,<3.0a0|>=2.2.0,<3.0a0|>=2.3.1,<3.0a0|>=2.4.1,<3.0a0|>=2.4.2,<3.0a0|>=2.4.3,<3.0a0|>=2.6.1,<3.0a0|>=2.7.1,<3.0a0']
+tifffile -> imagecodecs[version='>=2023.1.23'] -> c-blosc2[version='>=2.0.4,<3.0a0|>=2.1.1,<3.0a0|>=2.2.0,<3.0a0|>=2.3.1,<3.0a0|>=2.4.1,<3.0a0|>=2.4.2,<3.0a0|>=2.4.3,<3.0a0|>=2.6.1,<3.0a0|>=2.7.1,<3.0a0']
+
+Package gstreamer conflicts for:
+pyqt -> qt-main[version='>=5.15.6,<5.16.0a0'] -> gstreamer[version='>=1.14.0,<1.15.0a0|>=1.18.5,<1.19.0a0|>=1.20.0,<1.21.0a0|>=1.20.1,<1.21.0a0|>=1.20.2,<1.21.0a0|>=1.20.3,<1.21.0a0|>=1.21.1,<1.22.0a0|>=1.21.2,<1.22.0a0|>=1.21.3,<1.22.0a0|>=1.22.0,<1.23.0a0']
+qt -> qt-main=5.15.8 -> gstreamer[version='>=1.14.0,<1.15.0a0|>=1.18.5,<1.19.0a0|>=1.20.2,<1.21.0a0|>=1.20.3,<1.21.0a0|>=1.21.1,<1.22.0a0|>=1.21.2,<1.22.0a0|>=1.21.3,<1.22.0a0|>=1.22.0,<1.23.0a0|>=1.20.1,<1.21.0a0|>=1.20.0,<1.21.0a0']
+
+Package conda-pack conflicts for:
+anaconda-client -> anaconda-project[version='>=0.9.1'] -> conda-pack
+anaconda-project -> conda-pack
+anaconda-navigator -> anaconda-project -> conda-pack
+anaconda==2021.11=py39_0 -> anaconda-project==0.10.1=pyhd3eb1b0_0 -> conda-pack
+
+Package pyarrow conflicts for:
+dask -> pyarrow[version='>=7.0']
+scikit-image -> dask[version='>=0.5'] -> pyarrow[version='>=7.0']
+distributed -> dask[version='>=0.14.1'] -> pyarrow[version='>=7.0']
+
+Package fastcache conflicts for:
+anaconda==2021.11=py39_0 -> fastcache==1.1.0=py39h9ed2024_0
+sympy -> fastcache
+
+Package appscript conflicts for:
+xlwings -> appscript[version='>=1.0.1']
+anaconda==2021.11=py39_0 -> appscript==1.1.2=py39h9ed2024_0
+anaconda==2021.11=py39_0 -> xlwings==0.24.9=py39hecd8cb5_0 -> appscript[version='>=1.0.1']
+
+Package openblas-devel conflicts for:
+numpy -> openblas[version='>=0.3.3,<0.3.4.0a0'] -> openblas-devel[version='0.3.10|0.3.13|0.3.17|0.3.18|0.3.20|0.3.20|0.3.21|0.3.3|>=0.2.20,<0.2.21.0a0|0.3.6|0.3.6|0.3.6|>=0.3.2,<0.3.3.0a0',build='2|hecd8cb5_0|hecd8cb5_1|hecd8cb5_0|hecd8cb5_0|hecd8cb5_1|hecd8cb5_0|1|2|3|0|1|0']
+blas -> openblas -> openblas-devel[version='0.3.10|0.3.13|0.3.17|0.3.18|0.3.20|0.3.20|0.3.21|0.3.6|0.3.6|0.3.6|0.3.3|0.3.3|0.3.3|>=0.3.2,<0.3.3.0a0|>=0.2.20,<0.2.21.0a0',build='1|2|1|2|hecd8cb5_0|hecd8cb5_0|hecd8cb5_0|hecd8cb5_0|hecd8cb5_1|hecd8cb5_1|0|0|3']
+scikit-learn -> openblas[version='>=0.3.3,<0.3.4.0a0'] -> openblas-devel[version='0.3.3|>=0.2.20,<0.2.21.0a0',build='1|2|3']
+scipy -> openblas[version='>=0.3.3,<0.3.4.0a0'] -> openblas-devel[version='0.3.3|>=0.2.20,<0.2.21.0a0',build='1|2|3']
+
+Package cryptography-vectors conflicts for:
+conda-content-trust -> cryptography -> cryptography-vectors[version='2.3.*|2.3.1.*']
+urllib3 -> cryptography[version='>=1.3.4'] -> cryptography-vectors[version='2.3.*|2.3.1.*']
+pyopenssl -> cryptography[version='>=2.2.1'] -> cryptography-vectors[version='2.3.*|2.3.1.*']
+cryptography -> cryptography-vectors[version='2.3.*|2.3.1.*']
+pyjwt -> cryptography[version='>=1.4'] -> cryptography-vectors[version='2.3.*|2.3.1.*']
+
+Package libpq conflicts for:
+qt -> libpq[version='>=12.2,<13.0a0|>=12.3,<13.0a0|>=13.1,<14.0a0|>=14.1,<15.0a0']
+qt -> qt-main=5.15.8 -> libpq[version='>=12.9,<13.0a0|>=14.2,<15.0a0|>=14.3,<15.0a0|>=14.5,<15.0a0|>=15.1,<16.0a0|>=15.2,<16.0a0']
+
+Package hypothesis conflicts for:
+attrs -> hypothesis
+pytest -> attrs[version='>=17.2.0'] -> hypothesis
+astropy -> pytest-astropy -> hypothesis[version='>=5.1']
+
+Package backports.lzma conflicts for:
+tifffile -> backports.lzma
+scikit-image -> tifffile[version='>=2019.7.26'] -> backports.lzma
+
+Package conda-token conflicts for:
+anaconda==2021.11=py39_0 -> conda-token==0.3.0=pyhd3eb1b0_0
+anaconda-navigator -> conda-token
+
+Package werkzeug conflicts for:
+anaconda==2021.11=py39_0 -> werkzeug==2.0.2=pyhd3eb1b0_0
+anaconda==2021.11=py39_0 -> flask==1.1.2=pyhd3eb1b0_0 -> werkzeug[version='>=0.15']
+flask -> werkzeug[version='>=0.14|>=0.15|>=0.15,<2.0|>=2.0|>=2.2.0|>=2.2.2|>=0.7|>=0.7,<1.0.0']The following specifications were found to be incompatible with your system:
+
+  - feature:/osx-64::__osx==10.16=0
+  - feature:/osx-64::__unix==0=0
+  - feature:|@/osx-64::__osx==10.16=0
+  - feature:|@/osx-64::__unix==0=0
+  - applaunchservices -> __osx
+  - black -> click[version='>=8.0.0'] -> __unix
+  - black -> click[version='>=8.0.0'] -> __win
+  - click -> __unix
+  - click -> __win
+  - conda-verify -> click -> __unix
+  - conda-verify -> click -> __win
+  - cookiecutter -> click[version='>=7.0,<9'] -> __unix
+  - cookiecutter -> click[version='>=7.0,<9'] -> __win
+  - dask-core -> click[version='>=7.0'] -> __unix
+  - dask-core -> click[version='>=7.0'] -> __win
+  - distributed -> click[version='>=8.0'] -> __unix
+  - distributed -> click[version='>=8.0'] -> __win
+  - flask -> click[version='>=8.0'] -> __unix
+  - flask -> click[version='>=8.0'] -> __win
+  - ipykernel -> __linux
+  - ipykernel -> __osx
+  - ipykernel -> __win
+  - ipython -> __linux
+  - ipython -> __osx
+  - ipython -> __win
+  - ipywidgets -> ipykernel[version='>=4.5.1'] -> __linux
+  - ipywidgets -> ipykernel[version='>=4.5.1'] -> __osx
+  - ipywidgets -> ipykernel[version='>=4.5.1'] -> __win
+  - jupyter -> ipykernel -> __linux
+  - jupyter -> ipykernel -> __osx
+  - jupyter -> ipykernel -> __win
+  - jupyter_console -> ipykernel[version='>=6.14'] -> __linux
+  - jupyter_console -> ipykernel[version='>=6.14'] -> __osx
+  - jupyter_console -> ipykernel[version='>=6.14'] -> __win
+  - jupyter_server -> terminado[version='>=0.8.3'] -> __linux
+  - jupyter_server -> terminado[version='>=0.8.3'] -> __osx
+  - jupyter_server -> terminado[version='>=0.8.3'] -> __win
+  - jupyterlab -> ipython -> __linux
+  - jupyterlab -> ipython -> __osx
+  - jupyterlab -> ipython -> __win
+  - matplotlib -> matplotlib-base[version='>=3.7.1,<3.7.2.0a0'] -> __osx[version='>=10.11|>=10.12']
+  - matplotlib-base -> __osx[version='>=10.11|>=10.12']
+  - matplotlib-inline -> ipython -> __linux
+  - matplotlib-inline -> ipython -> __osx
+  - matplotlib-inline -> ipython -> __win
+  - nbclassic -> ipykernel -> __linux
+  - nbclassic -> ipykernel -> __osx
+  - nbclassic -> ipykernel -> __win
+  - networkx -> matplotlib-base[version='>=3.4'] -> __osx[version='>=10.11|>=10.12']
+  - nltk -> click -> __unix
+  - nltk -> click -> __win
+  - notebook -> ipykernel -> __linux
+  - notebook -> ipykernel -> __osx
+  - notebook -> ipykernel -> __win
+  - pyqt -> qtwebkit=5 -> __osx[version='>=10.12']
+  - pysocks -> __unix
+  - pysocks -> __win
+  - qtconsole -> ipykernel[version='>=4.1'] -> __linux
+  - qtconsole -> ipykernel[version='>=4.1'] -> __osx
+  - qtconsole -> ipykernel[version='>=4.1'] -> __win
+  - scikit-image -> matplotlib-base[version='>=2.0.0'] -> __osx[version='>=10.11|>=10.12']
+  - seaborn -> matplotlib-base[version='>=2.1.2'] -> __osx[version='>=10.11|>=10.12']
+  - spyder -> applaunchservices[version='>=0.3.0'] -> __osx
+  - spyder -> ipython[version='>=7.31.1,<9.0.0'] -> __linux
+  - spyder -> ipython[version='>=7.31.1,<9.0.0'] -> __win
+  - spyder -> spyder-kernels[version='>=2.4.2,<2.5.0'] -> __unix
+  - spyder-kernels -> __unix
+  - spyder-kernels -> __win
+  - spyder-kernels -> ipykernel[version='>=6.16.1,<7.0.0'] -> __linux
+  - spyder-kernels -> ipykernel[version='>=6.16.1,<7.0.0'] -> __osx
+  - sympy -> __unix
+  - terminado -> __linux
+  - terminado -> __osx
+  - terminado -> __win
+  - urllib3 -> pysocks[version='>=1.5.6,<2.0,!=1.5.7'] -> __unix
+  - urllib3 -> pysocks[version='>=1.5.6,<2.0,!=1.5.7'] -> __win
+  - widgetsnbextension -> ipykernel[version='>=4.5.1'] -> __linux
+  - widgetsnbextension -> ipykernel[version='>=4.5.1'] -> __osx
+  - widgetsnbextension -> ipykernel[version='>=4.5.1'] -> __win
+
+Your installed version is: 10.16
+
+Note that strict channel priority may have removed packages required for satisfiability.
+
+MacBookPro/Users/dhutererprats/C++/Master/testdirectory 116 > 

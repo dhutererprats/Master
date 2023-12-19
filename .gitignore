@@ -1,0 +1,6 @@
+# IDE stuff
+.vscode
+**/.idea
+**/__pycache__
+**/venv
+**/animate
